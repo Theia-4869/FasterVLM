@@ -2,7 +2,7 @@
 
 *A simple yet effective training-free token pruning method that evaluates the importance of visual tokens more accurately by [CLS] attentions, making VLM inference faster.*
 
-[📄 [Paper](https://arxiv.org/submit/6030048/view)] [🎞️ [Project Page](https://fastervlm.github.io)]
+[📄 [Paper](https://arxiv.org/abs/2412.01818)] [🎞️ [Project Page](https://fastervlm.github.io)]
 
 ## 👁️ Overview
 
@@ -71,9 +71,7 @@ bash scripts/analyze_attn_dispersion.sh
 
 ![attn_dispersion](assets/attn_dispersion.png)
 
-
 ## 📋️ Evaluation
-
 
 The main implementation of FasterVLM is highlighted with `FasterVLM` annotations, mainly in [`llava_llama.py`](llava/model/language_model/llava_llama.py#L51), [`llava_arch.py`](llava/model/llava_arch.py#L140) and [`clip_encoder.py`](llava/model/multimodal_encoder/clip_encoder.py#L35).
 
@@ -93,6 +91,7 @@ For evaluation with the 13B LLM, you just need to replace the `CKPT` argument fr
 ```bash
 CUDA_VISIBLE_DEVICES=0 bash scripts/v1_6/eval/mme.sh 29
 ```
+
 The total number of remaining visual tokens is 29 * 5 = 145.
 
 ![results](assets/results.png)
@@ -104,8 +103,8 @@ If you find FasterVLM useful for your research and applications, please cite usi
 @article{zhang2024fastervlm,
       title={[CLS] Attention is All You Need for Training-Free Visual Token Pruning: Make VLM Inference Faster}, 
       author={Zhang, Qizhe and Cheng, Aosong and Lu, Ming and Zhuo, Zhiyong and Wang, MinQi and Cao, Jiajun and Guo, Shaobo and She, Qi and Zhang, Shanghang},
-      journal={arXiv preprint arXiv:2603.00048},
-      year={2023},
+      journal={arXiv preprint arXiv:2412.01818},
+      year={2024},
 }
 ```
 
