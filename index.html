@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="[CLS] Attention is All You Need for Training-Free Visual Token Pruning: Make VLM Inference Faster">
+  <meta name="keywords" content="efficient vision, visual token pruning, training-free acceleration, vision-language model">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FasterVLM</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/9414/9414651.png">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
+  <script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/4.8.0/gradio.js"></script>
+</head>
+
+<style>
+  .expandable-card .card-text-container {
+    max-height: 200px;
+    overflow-y: hidden;
+    position: relative;
+  }
+
+  .expandable-card.expanded .card-text-container {
+    max-height: none;
+  }
+
+  .expand-btn {
+    position: relative;
+    display: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* margin-top: -20px; */
+    /* justify-content: center; */
+    color: #510c75;
+    border-color: transparent;
+  }
+
+  .expand-btn:hover {
+    background-color: rgba(200, 200, 200, 0.8);
+    text-decoration: none;
+    border-color: transparent;
+    color: #510c75;
+  }
+
+  .expand-btn:focus {
+    outline: none;
+    text-decoration: none;
+  }
+
+  .expandable-card:not(.expanded) .card-text-container:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1));
+  }
+
+  .expandable-card:not(.expanded) .expand-btn {
+    margin-top: -40px;
+  }
+
+  .card-body {
+    padding-bottom: 5px;
+  }
+
+  .vertical-flex-layout {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .figure-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .adjustable-font-size {
+    font-size: calc(0.5rem + 2vw);
+  }
+
+  .chat-history {
+    flex-grow: 1;
+    overflow-y: auto;
+    /* overflow-x: hidden; */
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+
+  #gradio pre {
+    background-color: transparent;
+  }
+
+.author-block a {
+    color: #008AD7;
+    font-weight: normal;
+}
+
+/* Adjust the vertical alignment and font size of the superscript */
+.author-block a sup {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.3em; /* Adjusts the position slightly above the baseline */
+    right: -0.1em; /* Adjusts the position slightly to the right */
+    font-size: smaller; /* Makes the font size smaller if needed */
+}
+
+</style>
+
+<body>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-2 publication-title">⚡ FasterVLM<span class="is-size-2"><span class="is-size-1"></span></h1>
+            <h3 class="title is-3 publication-title">[CLS] Attention is All You Need for Training-Free Visual Token Pruning: <br> Make VLM Inference Faster </h3>
+            <div class="is-size-4 publication-authors">
+
+              <span class="author-block">
+                <a href="https://theia4869.com/">Qizhe Zhang<sup>1,2</sup></a>,
+              </span>
+
+              <span class="author-block">
+				Aosong Cheng<sup>1</sup>,
+              </span>
+
+              <span class="author-block">
+                <a href="https://lu-m13.github.io/">Ming Lu<sup>3</sup></a>,
+              </span>
+            
+              <span class="author-block">
+				<a href="https://arthals.ink/">Zhiyong Zhuo<sup>1</sup></a>,
+              </span>
+            
+              <span class="author-block">
+                Minqi Wang<sup>1</sup>,
+              </span>
+			
+            </div>
+			  
+			<div class="is-size-4 publication-authors">
+			  
+			  <span class="author-block">
+			    Jiajun Cao<sup>1</sup>,
+			  </span>
+			  
+			  <span class="author-block">
+			    Shaobo Guo<sup>2</sup>,
+			  </span>
+			  
+			  <span class="author-block">
+			    Qi She<sup>2</sup>,
+			  </span>
+
+              <span class="author-block">
+                <a href="https://www.shanghangzhang.com/">Shanghang Zhang<sup>1,&#9993;</sup></a>
+              </span>
+
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>&#9993;</sup>Corresponding Author</span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+			  <span class="author-block">
+				<sup>1</sup> School of Computer Science, Peking University
+			  </span>
+			</div>
+			
+			<div class="is-size-5 publication-authors">
+			  <span class="author-block">
+				<sup>2</sup> ByteDance AI Lab
+			  </span>
+			  
+			  <span class="author-block">
+				<sup>3</sup> Intel Labs China
+			  </span>
+            </div>
+			
+			<video width="540" height="360" controls>
+			  <source src="./static/video/demo.mp4" type="video/mp4">
+			</video>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2412.01818" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://github.com/Theia-4869/FasterVLM" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                <!-- <span class="link-block">
+                  <a href="https://github.com/42Shawn/LLaVA-PruMerge" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-database"></i>
+                    </span>
+                    <span>Dataset</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://github.com/42Shawn/LLaVA-PruMerge" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-share-square"></i>
+                    </span>
+                    <span>Model</span>
+                  </a>
+                </span> -->
+                <!-- <span class="link-block">
+                <a href="#"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                  </a>
+              </span> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="section"  style="background-color:#efeff081">
+    <div class="container is-max-desktop" id="gradio">
+      <gradio-app src="https://vip-llava-2.hliu.cc"></gradio-app>
+    </div>
+  </section> -->
+
+  <section class="section" style="background-color:#efeff081">
+    <div class="container is-max-desktop">
+      <!-- Abstract -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-six-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Large vision-language models (VLMs) often rely on a substantial number of visual tokens when interacting with large language models (LLMs), 
+							which has proven to be inefficient. Recent efforts have aimed to accelerate VLM inference by pruning visual tokens. 
+							Most existing methods assess the importance of visual tokens based on the text-visual cross-attentions in LLMs. In this study, 
+							we find that the cross-attentions between text and visual tokens in LLMs are inaccurate. Pruning tokens based on these inaccurate attentions 
+							leads to significant performance degradation, especially at high reduction ratios. To this end, we introduce <b>FasterVLM</b>, 
+							a simple yet effective training-free visual token pruning method that evaluates the importance of visual tokens more accurately 
+							by utilizing attentions between the<code>[CLS]</code>token and image tokens from the visual encoder. Since FasterVLM eliminates 
+							redundant visual tokens immediately after the visual encoder, ensuring they do not interact with LLMs and resulting in faster VLM inference. 
+							Benefiting from the accuracy of<code>[CLS]</code>cross-attentions, FasterVLM can prune 95% of visual tokens while 
+							maintaining 90% of the performance of LLaVA-1.5-7B. We apply FasterVLM to various VLMs, including LLaVA-1.5, LLaVA-NeXT, and Video-LLaVA, 
+							to demonstrate its effectiveness. Experimental results show that our FasterVLM maintains strong performance across various VLM architectures 
+							and reduction ratios, significantly outperforming existing text-visual attention-based methods. Our code is available at <a href="https://github.com/Theia-4869/FasterVLM">https://github.com/Theia-4869/FasterVLM</a>.
+           </p>
+          </div>
+					<centering>
+					  <div style="text-align: center;">
+					    <img id="teaser" width="33.5%" src="static/image/radar.png">
+						  <img id="teaser" width="65%" src="static/image/line.png">
+					  </div>
+					</centering>
+        </div>
+      </div>
+        
+    </div>
+  </section>
+
+	<section class="section">
+		<!-- Inaccurate Text-Visual Attention in VLMs -->
+		<div class="columns is-centered has-text-centered">
+			<div class="column is-six-fifths">
+				<h2 class="title is-3">Inaccurate Text-Visual Attention in VLMs</h2>
+			</div>
+		</div>
+		
+		<div class="container is-max-desktop">
+			<div class="columns is-centered">
+				<div class="column is-full-width">
+					<div class="content has-text-justified">
+				
+						<p>
+							Text-visual attention from the LLM Decoder in VLMs is often used to evaluate the importance of visual tokens for pruning. 
+							However, we find this attention <b>does not align with the actual importance of visual tokens</b>.
+						</p>
+
+						<p>
+							we describe two phenomena observed in the visual attention of LLM decoder, termed <b><i>attention shift</i></b> and <b><i>attention dispersion</i></b>, 
+							corresponding to the <b>position</b> and <b>intensity</b> of attention respectively. These phenomena are <b>absent</b> in the <b>visual encoder</b> of VLMs, 
+							which motivates our use of<code>[CLS]</code><b>attention</b> as a more reliable indicator of visual token importance.
+						</p>
+
+					</div>
+				</div>
+			</div>
+			
+			<div class="columns is-centered has-text-centered">
+				<div class="column is-six-fifths">
+					<h3 class="title is-4">Text-Visual Attention Shift</h3>
+				</div>
+			</div>
+			
+			<div class="columns is-centered">
+				<div class="column is-full-width">
+					<div class="content has-text-justified"> 
+						<p>
+							A clear trend is visible across all attention distributions <b>within the LLM decoder</b> (image, text, and last), where <b>attention scores increase with larger token indices</b>. 
+							This suggests that if visual tokens were pruned based on text-visual attention from the LLM decoder, most retained visual tokens would be located in the <b>lower half</b> of the input image, 
+							potentially leading to <b>a serious loss of important visual information</b>.
+						</p>
+					</div>
+					<centering>
+						<div style="text-align: center;">
+							<img id="teaser" width="100%" src="static/image/attn_shift.png">     
+						</div>
+					</centering>
+					<div class="content has-text-justified">
+						<p>
+							We attribute this phenomenon to the <b>unidirectional</b> nature of attention in the <b>LLM</b>, as this trend <b>does not appear</b> in the <b>visual encoder</b>, which employs <b>global</b> attention. 
+							Although this causal attention is the core of the next-token prediction paradigm, it is not well-suited for assessing the importance of visual tokens.
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="columns is-centered has-text-centered">
+				<div class="column is-six-fifths">
+					<h3 class="title is-4">Text-Visual Attention Dispersion</h3>
+				</div>
+			</div>
+
+			<div class="columns is-centered">
+				<div class="column is-full-width">
+					<div class="content has-text-justified"> 
+						<p>
+							It is apparent that<code>[CLS]</code>attention is <b>highly focused</b>, with only <b>a few</b> tokens receiving <b>significant</b> attention. In contrast, 
+							the last output token attention (as well as other text tokens) is more <b>dispersed</b>, with <b>multiple regions</b> across the image receiving high attention, 
+							making it challenging to select important visual tokens during pruning.
+						</p>
+					</div>
+					<centering>
+						<div style="text-align: center;">
+							<img id="teaser" width="100%" src="static/image/attn_dispersion.png">     
+						</div>
+					</centering>
+					<div class="content has-text-justified" style="margin-top: 10px;">
+						<p>
+						Most visual tokens receive <b>minimal</b><code>[CLS]</code>attention, while last attention is more uniformly distributed, which means it contains <b>more noise</b>. 
+						The lack of <i>attention dispersion</i> in<code>[CLS]</code>attention suggests it is a more <b>suitable indicator</b> for guiding visual token pruning.
+						</p>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+	</section>
+  
+	<section class="section">
+		<!-- [CLS] Attention for Visual Token Pruning -->
+		<div class="columns is-centered has-text-centered">
+			<div class="column is-six-fifths">
+				<h2 class="title is-3"><code>[CLS]</code>Attention for Visual Token Pruning</h2>
+			</div>
+		</div>
+		
+	<div class="container is-max-desktop">
+		<div class="columns is-centered">
+			<div class="column is-full-width">
+				<div class="content has-text-justified"> 
+					<p>
+						Based on the above analysis of attention in VLMs, we propose <b>FasterVLM</b>, 
+						which uses<code>[CLS]</code>attention from the <b>visual encoder</b> as a more <b>accurate</b> indicator for visual token pruning. 
+						By removing redundant visual tokens <b>before</b> the LLM decoder, our approach could make VLM inference <b>faster</b> than methods 
+						that prune tokens <b>within</b> the LLM.
+					</p>
+				</div>
+				<centering>
+					<div style="text-align: center;">
+						<img id="teaser" width="100%" src="static/image/pipeline.gif">     
+					</div>
+				</centering>  
+				<div class="content has-text-justified"> 
+					<p>
+						We first <b>re-rank</b> image tokens using<code>[CLS]</code>attention from the <b>visual encoder</b> and prune the <b>last R%</b>. The <b>remaining</b> image tokens, 
+						after passing through the multi-modal projector, are combined with language instructions as input to the language model for response generation. 
+						Since redundant image tokens are removed <b>before</b> the language model, <b>FasterVLM</b> can make the inference of the entire VLM even <b>faster</b> than pruning <b>within</b> the language model.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	</section>
+	
+	<section class="section">
+		<!-- Performance Comparison -->
+		<div class="columns is-centered has-text-centered">
+			<div class="column is-six-fifths">
+				<h2 class="title is-3">Performance Comparison</h2>
+			</div>
+		</div>
+		
+		<div class="container is-max-desktop">
+			<div class="columns is-centered">
+				<div class="column is-full-width">
+					<div class="content has-text-justified">
+						<p>
+							We validate our <b>FasterVLM</b> against multiple existing methods across various VLM <b>architectures</b> on comprehensive multi-modal benchmarks, 
+							including <b>high-resolution</b> image and <b>video</b> understanding tasks.
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="columns is-centered has-text-centered">
+				<div class="column is-six-fifths">
+					<h3 class="title is-4">LLaVA-1.5-7B</h3>
+				</div>
+			</div>
+			
+			<div class="columns is-centered">
+				<div class="column is-full-width">
+					<centering>
+						<div style="text-align: center;">
+							<img id="teaser" width="100%" src="static/image/llava-1.5-7b.png">     
+						</div>
+					</centering>
+				</div>
+			</div>
+			
+			<div class="columns is-centered has-text-centered">
+				<div class="column is-six-fifths">
+					<h3 class="title is-4">LLaVA-1.5-13B</h3>
+				</div>
+			</div>
+			
+			<div class="columns is-centered">
+				<div class="column is-full-width">
+					<centering>
+						<div style="text-align: center;">
+							<img id="teaser" width="100%" src="static/image/llava-1.5-13b.png">     
+						</div>
+					</centering>
+				</div>
+			</div>
+			
+			<div class="columns is-centered has-text-centered">
+				<div class="column is-six-fifths">
+					<h3 class="title is-4">LLaVA-NeXT-7B</h3>
+				</div>
+			</div>
+			
+			<div class="columns is-centered">
+				<div class="column is-full-width">
+					<centering>
+						<div style="text-align: center;">
+							<img id="teaser" width="100%" src="static/image/llava-1.6-7b.png">     
+						</div>
+					</centering>
+				</div>
+			</div>
+			
+			<div class="columns is-centered has-text-centered">
+				<div class="column is-six-fifths">
+					<h3 class="title is-4">Video-LLaVA</h3>
+				</div>
+			</div>
+			
+			<div class="columns is-centered">
+				<div class="column is-full-width">
+					<centering>
+						<div style="text-align: center;">
+							<img id="teaser" width="100%" src="static/image/video-llava.png">     
+						</div>
+					</centering>
+				</div>
+			</div>
+		
+		</div>
+	</section>
+	
+	<section class="section">
+		<!-- Efficiency Comparison -->
+		<div class="columns is-centered has-text-centered">
+			<div class="column is-six-fifths">
+				<h2 class="title is-3">Efficiency Comparison</h2>
+			</div>
+		</div>
+		
+		<div class="container is-max-desktop">
+			<div class="columns is-centered">
+				<div class="column is-full-width">
+					<div class="content has-text-justified">
+						<p>
+							We compare the computational efficiency between <b>FastV</b> and our <b>FasterVLM</b> under LLaVA-NeXT-7B. 
+							Unlike FastV, which prune visual token <b>within</b> the LLM, FasterVLM prunes tokens <b>before</b> the LLM, 
+							enabling compatibility with <b>FlashAttention</b>. This design results in <b>significantly higher</b> efficiency. 
+							Note that the original implementation of <b>SDPA</b> also includes FlashAttention, so its computational efficiency
+							is comparable to that of FlashAttention2, with only slight differences. All efficiency analyses are performed on 
+							a single NVIDIA A100-80GB GPU, evaluated using the POPE benchmark.
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="columns is-centered">
+				<div class="column is-full-width">
+					<centering>
+						<div style="text-align: center;">
+							<img id="teaser" width="100%" src="static/image/efficiency.png">     
+						</div>
+					</centering>
+				</div>
+			</div>
+		
+		</div>
+	</section>
+	<section class="section" id="Contact">
+	  <div class="container is-max-desktop content">
+	    <h2 class="title">Contact</h2>
+			<p>
+				If you have any questions, please feel free to contact us:
+			</p>
+			<ul style="list-style-type: none; padding: 0; margin-left: 50px">
+				<li><span style="font-weight: bold;">Qizhe Zhang: </span><span>theia@pku.edu.cn</span></li>
+				<li><span style="font-weight: bold;">Ming Lu: </span><span>lu199192@gmail.com</span></li>
+				<li><span style="font-weight: bold;">Shanghang Zhang: </span><span>shanghang@pku.edu.cn</span></li>
+			</ul>
+	  </div>
+	</section>
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
+        @article{zhang2024fastervlm,
+          title={[CLS] Attention is All You Need for Training-Free Visual Token Pruning: Make VLM Inference Faster}, 
+          author={Zhang, Qizhe and Cheng, Aosong and Lu, Ming and Zhuo, Zhiyong and Wang, MinQi and Cao, Jiajun and Guo, Shaobo and She, Qi and Zhang, Shanghang},
+          journal={arXiv preprint arXiv:2412.01818},
+          year={2024}
+        }
+			</code></pre>
+    </div>
+  </section>
+
+</body>
+
+</html>
