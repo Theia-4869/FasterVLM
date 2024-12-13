@@ -2,7 +2,7 @@
 
 *A simple yet effective training-free token pruning method that evaluates the importance of visual tokens more accurately by [CLS] attentions, making VLM inference faster.*
 
-[📄 [Paper](https://arxiv.org/abs/2412.01818)] [🎞️ [Project Page](https://fastervlm.github.io)]
+[📄 [Paper](https://arxiv.org/abs/2412.01818)] [🎞️ [Project Page](https://theia4869.com/FasterVLM/)]
 
 ## 👁️ Overview
 
