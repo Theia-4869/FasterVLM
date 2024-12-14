@@ -2,7 +2,13 @@
 
 *A simple yet effective training-free token pruning method that evaluates the importance of visual tokens more accurately by [CLS] attentions, making VLM inference faster.*
 
-[📄 [Paper](https://arxiv.org/abs/2412.01818)] [🎞️ [Project Page](https://theia4869.com/FasterVLM/)]
+[📄 [Paper](https://arxiv.org/abs/2412.01818)] [🎞️ [Project Page](https://theia4869.com/FasterVLM)]
+
+## 📰 News
+
+🔥 **[2024/12/15]** Our [FasterVLM](https://github.com/Theia-4869/FasterVLM/tree/video) with [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA) is released!
+
+🔥 **[2024/12/13]** Our [Project Page](https://theia4869.com/FasterVLM) is updated!
 
 ## 👁️ Overview
 
