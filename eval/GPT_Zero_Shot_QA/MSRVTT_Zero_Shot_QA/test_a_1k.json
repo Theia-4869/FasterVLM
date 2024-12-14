@@ -1,0 +1,5002 @@
+[
+  {
+    "answer": "regard",
+    "type": 3,
+    "question_id": "v_video7010_0"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7010_1"
+  },
+  {
+    "answer": "explain",
+    "type": 3,
+    "question_id": "v_video7010_2"
+  },
+  {
+    "answer": "search",
+    "type": 3,
+    "question_id": "v_video7010_3"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7010_4"
+  },
+  {
+    "answer": "provide",
+    "type": 3,
+    "question_id": "v_video7010_5"
+  },
+  {
+    "answer": "explain",
+    "type": 3,
+    "question_id": "v_video7010_6"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7010_7"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7010_8"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7010_9"
+  },
+  {
+    "answer": "computer",
+    "type": 3,
+    "question_id": "v_video7010_10"
+  },
+  {
+    "answer": "computer",
+    "type": 3,
+    "question_id": "v_video7010_11"
+  },
+  {
+    "answer": "guy",
+    "type": 3,
+    "question_id": "v_video7010_12"
+  },
+  {
+    "answer": "something",
+    "type": 3,
+    "question_id": "v_video7010_13"
+  },
+  {
+    "answer": "someone",
+    "type": 3,
+    "question_id": "v_video7010_14"
+  },
+  {
+    "answer": "computer",
+    "type": 3,
+    "question_id": "v_video7010_15"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7010_16"
+  },
+  {
+    "answer": "someone",
+    "type": 3,
+    "question_id": "v_video7010_17"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7010_18"
+  },
+  {
+    "answer": "teach",
+    "type": 3,
+    "question_id": "v_video7011_0"
+  },
+  {
+    "answer": "exclaim",
+    "type": 3,
+    "question_id": "v_video7011_1"
+  },
+  {
+    "answer": "stand",
+    "type": 3,
+    "question_id": "v_video7011_2"
+  },
+  {
+    "answer": "learn",
+    "type": 3,
+    "question_id": "v_video7011_3"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7011_4"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7011_5"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7011_6"
+  },
+  {
+    "answer": "pose",
+    "type": 3,
+    "question_id": "v_video7011_7"
+  },
+  {
+    "answer": "move",
+    "type": 3,
+    "question_id": "v_video7011_8"
+  },
+  {
+    "answer": "pain",
+    "type": 3,
+    "question_id": "v_video7011_9"
+  },
+  {
+    "answer": "video",
+    "type": 3,
+    "question_id": "v_video7011_10"
+  },
+  {
+    "answer": "color",
+    "type": 3,
+    "question_id": "v_video7011_11"
+  },
+  {
+    "answer": "video",
+    "type": 3,
+    "question_id": "v_video7011_12"
+  },
+  {
+    "answer": "paint",
+    "type": 3,
+    "question_id": "v_video7011_13"
+  },
+  {
+    "answer": "animation",
+    "type": 3,
+    "question_id": "v_video7011_14"
+  },
+  {
+    "answer": "paint",
+    "type": 3,
+    "question_id": "v_video7011_15"
+  },
+  {
+    "answer": "cartoon",
+    "type": 3,
+    "question_id": "v_video7011_16"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7012_0"
+  },
+  {
+    "answer": "sit",
+    "type": 3,
+    "question_id": "v_video7012_1"
+  },
+  {
+    "answer": "wear",
+    "type": 3,
+    "question_id": "v_video7012_2"
+  },
+  {
+    "answer": "wear",
+    "type": 3,
+    "question_id": "v_video7012_3"
+  },
+  {
+    "answer": "wear",
+    "type": 3,
+    "question_id": "v_video7012_4"
+  },
+  {
+    "answer": "discus",
+    "type": 3,
+    "question_id": "v_video7012_5"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7012_6"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7012_7"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7012_8"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7012_9"
+  },
+  {
+    "answer": "room",
+    "type": 3,
+    "question_id": "v_video7012_10"
+  },
+  {
+    "answer": "health",
+    "type": 3,
+    "question_id": "v_video7012_11"
+  },
+  {
+    "answer": "suit",
+    "type": 3,
+    "question_id": "v_video7012_12"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7012_13"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7012_14"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7012_15"
+  },
+  {
+    "answer": "chair",
+    "type": 3,
+    "question_id": "v_video7012_16"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7012_17"
+  },
+  {
+    "answer": "fun",
+    "type": 3,
+    "question_id": "v_video7012_18"
+  },
+  {
+    "answer": "studio",
+    "type": 3,
+    "question_id": "v_video7012_19"
+  },
+  {
+    "answer": "stand",
+    "type": 3,
+    "question_id": "v_video7013_0"
+  },
+  {
+    "answer": "write",
+    "type": 3,
+    "question_id": "v_video7013_1"
+  },
+  {
+    "answer": "teach",
+    "type": 3,
+    "question_id": "v_video7013_2"
+  },
+  {
+    "answer": "teach",
+    "type": 3,
+    "question_id": "v_video7013_3"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7013_4"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7013_5"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7013_6"
+  },
+  {
+    "answer": "teacher",
+    "type": 3,
+    "question_id": "v_video7013_7"
+  },
+  {
+    "answer": "chalkboard",
+    "type": 3,
+    "question_id": "v_video7013_8"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7013_9"
+  },
+  {
+    "answer": "write",
+    "type": 3,
+    "question_id": "v_video7013_10"
+  },
+  {
+    "answer": "problem",
+    "type": 3,
+    "question_id": "v_video7013_11"
+  },
+  {
+    "answer": "explain",
+    "type": 3,
+    "question_id": "v_video7013_12"
+  },
+  {
+    "answer": "math",
+    "type": 3,
+    "question_id": "v_video7013_13"
+  },
+  {
+    "answer": "math",
+    "type": 3,
+    "question_id": "v_video7013_14"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7013_15"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7013_16"
+  },
+  {
+    "answer": "teacher",
+    "type": 3,
+    "question_id": "v_video7013_17"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7013_18"
+  },
+  {
+    "answer": "whiteboard",
+    "type": 3,
+    "question_id": "v_video7013_19"
+  },
+  {
+    "answer": "lesson",
+    "type": 3,
+    "question_id": "v_video7013_20"
+  },
+  {
+    "answer": "math",
+    "type": 3,
+    "question_id": "v_video7013_21"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7013_22"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7013_23"
+  },
+  {
+    "answer": "board",
+    "type": 3,
+    "question_id": "v_video7013_24"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7013_25"
+  },
+  {
+    "answer": "stage",
+    "type": 3,
+    "question_id": "v_video7014_0"
+  },
+  {
+    "answer": "girl",
+    "type": 3,
+    "question_id": "v_video7014_1"
+  },
+  {
+    "answer": "gameshow",
+    "type": 3,
+    "question_id": "v_video7014_2"
+  },
+  {
+    "answer": "girl",
+    "type": 3,
+    "question_id": "v_video7014_3"
+  },
+  {
+    "answer": "stage",
+    "type": 3,
+    "question_id": "v_video7014_4"
+  },
+  {
+    "answer": "girl",
+    "type": 3,
+    "question_id": "v_video7014_5"
+  },
+  {
+    "answer": "girl",
+    "type": 3,
+    "question_id": "v_video7014_6"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7014_7"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7014_8"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7014_9"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7014_10"
+  },
+  {
+    "answer": "judge",
+    "type": 3,
+    "question_id": "v_video7014_11"
+  },
+  {
+    "answer": "perform",
+    "type": 3,
+    "question_id": "v_video7014_12"
+  },
+  {
+    "answer": "girl",
+    "type": 3,
+    "question_id": "v_video7014_13"
+  },
+  {
+    "answer": "judge",
+    "type": 3,
+    "question_id": "v_video7014_14"
+  },
+  {
+    "answer": "girl",
+    "type": 3,
+    "question_id": "v_video7014_15"
+  },
+  {
+    "answer": "judge",
+    "type": 3,
+    "question_id": "v_video7014_16"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7015_0"
+  },
+  {
+    "answer": "girl",
+    "type": 3,
+    "question_id": "v_video7015_1"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7015_2"
+  },
+  {
+    "answer": "female",
+    "type": 3,
+    "question_id": "v_video7015_3"
+  },
+  {
+    "answer": "laugh",
+    "type": 3,
+    "question_id": "v_video7015_4"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7015_5"
+  },
+  {
+    "answer": "girl",
+    "type": 3,
+    "question_id": "v_video7015_6"
+  },
+  {
+    "answer": "laugh",
+    "type": 3,
+    "question_id": "v_video7015_7"
+  },
+  {
+    "answer": "stand",
+    "type": 3,
+    "question_id": "v_video7015_8"
+  },
+  {
+    "answer": "entertain",
+    "type": 3,
+    "question_id": "v_video7015_9"
+  },
+  {
+    "answer": "dance",
+    "type": 3,
+    "question_id": "v_video7015_10"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7015_11"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7015_12"
+  },
+  {
+    "answer": "shout",
+    "type": 3,
+    "question_id": "v_video7015_13"
+  },
+  {
+    "answer": "laugh",
+    "type": 3,
+    "question_id": "v_video7015_14"
+  },
+  {
+    "answer": "friend",
+    "type": 3,
+    "question_id": "v_video7015_15"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7015_16"
+  },
+  {
+    "answer": "laugh",
+    "type": 3,
+    "question_id": "v_video7015_17"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7015_18"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7015_19"
+  },
+  {
+    "answer": "demonstration",
+    "type": 3,
+    "question_id": "v_video7015_20"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7015_21"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7015_22"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7015_23"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7015_24"
+  },
+  {
+    "answer": "boy",
+    "type": 3,
+    "question_id": "v_video7015_25"
+  },
+  {
+    "answer": "laugh",
+    "type": 3,
+    "question_id": "v_video7015_26"
+  },
+  {
+    "answer": "song",
+    "type": 3,
+    "question_id": "v_video7015_27"
+  },
+  {
+    "answer": "male",
+    "type": 3,
+    "question_id": "v_video7015_28"
+  },
+  {
+    "answer": "sister",
+    "type": 3,
+    "question_id": "v_video7015_29"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7015_30"
+  },
+  {
+    "answer": "marble",
+    "type": 3,
+    "question_id": "v_video7016_0"
+  },
+  {
+    "answer": "play",
+    "type": 3,
+    "question_id": "v_video7016_1"
+  },
+  {
+    "answer": "play",
+    "type": 3,
+    "question_id": "v_video7016_2"
+  },
+  {
+    "answer": "put",
+    "type": 3,
+    "question_id": "v_video7016_3"
+  },
+  {
+    "answer": "mix",
+    "type": 3,
+    "question_id": "v_video7016_4"
+  },
+  {
+    "answer": "explain",
+    "type": 3,
+    "question_id": "v_video7016_5"
+  },
+  {
+    "answer": "decorate",
+    "type": 3,
+    "question_id": "v_video7016_6"
+  },
+  {
+    "answer": "color",
+    "type": 3,
+    "question_id": "v_video7016_7"
+  },
+  {
+    "answer": "help",
+    "type": 3,
+    "question_id": "v_video7016_8"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7016_9"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7016_10"
+  },
+  {
+    "answer": "easter",
+    "type": 3,
+    "question_id": "v_video7016_11"
+  },
+  {
+    "answer": "easter",
+    "type": 3,
+    "question_id": "v_video7016_12"
+  },
+  {
+    "answer": "egg",
+    "type": 3,
+    "question_id": "v_video7016_13"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7016_14"
+  },
+  {
+    "answer": "table",
+    "type": 3,
+    "question_id": "v_video7016_15"
+  },
+  {
+    "answer": "egg",
+    "type": 3,
+    "question_id": "v_video7016_16"
+  },
+  {
+    "answer": "water",
+    "type": 3,
+    "question_id": "v_video7016_17"
+  },
+  {
+    "answer": "holder",
+    "type": 3,
+    "question_id": "v_video7016_18"
+  },
+  {
+    "answer": "easter",
+    "type": 3,
+    "question_id": "v_video7016_19"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7016_20"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7016_21"
+  },
+  {
+    "answer": "polish",
+    "type": 3,
+    "question_id": "v_video7016_22"
+  },
+  {
+    "answer": "girl",
+    "type": 3,
+    "question_id": "v_video7016_23"
+  },
+  {
+    "answer": "game",
+    "type": 3,
+    "question_id": "v_video7017_0"
+  },
+  {
+    "answer": "earth",
+    "type": 3,
+    "question_id": "v_video7017_1"
+  },
+  {
+    "answer": "someone",
+    "type": 3,
+    "question_id": "v_video7017_2"
+  },
+  {
+    "answer": "minecraft",
+    "type": 3,
+    "question_id": "v_video7017_3"
+  },
+  {
+    "answer": "video",
+    "type": 3,
+    "question_id": "v_video7017_4"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7017_5"
+  },
+  {
+    "answer": "gamer",
+    "type": 3,
+    "question_id": "v_video7017_6"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7017_7"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7017_8"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7017_9"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7017_10"
+  },
+  {
+    "answer": "minecraft",
+    "type": 3,
+    "question_id": "v_video7017_11"
+  },
+  {
+    "answer": "nether",
+    "type": 3,
+    "question_id": "v_video7017_12"
+  },
+  {
+    "answer": "minecraft",
+    "type": 3,
+    "question_id": "v_video7017_13"
+  },
+  {
+    "answer": "guy",
+    "type": 3,
+    "question_id": "v_video7017_14"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7017_15"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7017_16"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7017_17"
+  },
+  {
+    "answer": "minecraft",
+    "type": 3,
+    "question_id": "v_video7017_18"
+  },
+  {
+    "answer": "video",
+    "type": 3,
+    "question_id": "v_video7017_19"
+  },
+  {
+    "answer": "minecraft",
+    "type": 3,
+    "question_id": "v_video7017_20"
+  },
+  {
+    "answer": "break",
+    "type": 3,
+    "question_id": "v_video7017_21"
+  },
+  {
+    "answer": "play",
+    "type": 3,
+    "question_id": "v_video7017_22"
+  },
+  {
+    "answer": "mine",
+    "type": 3,
+    "question_id": "v_video7017_23"
+  },
+  {
+    "answer": "hammer",
+    "type": 3,
+    "question_id": "v_video7017_24"
+  },
+  {
+    "answer": "commentate",
+    "type": 3,
+    "question_id": "v_video7017_25"
+  },
+  {
+    "answer": "play",
+    "type": 3,
+    "question_id": "v_video7017_26"
+  },
+  {
+    "answer": "peson",
+    "type": 3,
+    "question_id": "v_video7018_0"
+  },
+  {
+    "answer": "rap",
+    "type": 3,
+    "question_id": "v_video7018_1"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7018_2"
+  },
+  {
+    "answer": "picture",
+    "type": 3,
+    "question_id": "v_video7018_3"
+  },
+  {
+    "answer": "voiceover",
+    "type": 3,
+    "question_id": "v_video7018_4"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7018_5"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7018_6"
+  },
+  {
+    "answer": "flash",
+    "type": 3,
+    "question_id": "v_video7018_7"
+  },
+  {
+    "answer": "rapper",
+    "type": 3,
+    "question_id": "v_video7018_8"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7018_9"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7018_10"
+  },
+  {
+    "answer": "two",
+    "type": 3,
+    "question_id": "v_video7018_11"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7018_12"
+  },
+  {
+    "answer": "guy",
+    "type": 3,
+    "question_id": "v_video7018_13"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7018_14"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7018_15"
+  },
+  {
+    "answer": "room",
+    "type": 3,
+    "question_id": "v_video7018_16"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7018_17"
+  },
+  {
+    "answer": "rap",
+    "type": 3,
+    "question_id": "v_video7018_18"
+  },
+  {
+    "answer": "rap",
+    "type": 3,
+    "question_id": "v_video7018_19"
+  },
+  {
+    "answer": "change",
+    "type": 3,
+    "question_id": "v_video7018_20"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7018_21"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7018_22"
+  },
+  {
+    "answer": "dance",
+    "type": 3,
+    "question_id": "v_video7018_23"
+  },
+  {
+    "answer": "sit",
+    "type": 3,
+    "question_id": "v_video7018_24"
+  },
+  {
+    "answer": "throw",
+    "type": 3,
+    "question_id": "v_video7018_25"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7019_0"
+  },
+  {
+    "answer": "fun",
+    "type": 3,
+    "question_id": "v_video7019_1"
+  },
+  {
+    "answer": "studio",
+    "type": 3,
+    "question_id": "v_video7019_2"
+  },
+  {
+    "answer": "something",
+    "type": 3,
+    "question_id": "v_video7019_3"
+  },
+  {
+    "answer": "system",
+    "type": 3,
+    "question_id": "v_video7019_4"
+  },
+  {
+    "answer": "system",
+    "type": 3,
+    "question_id": "v_video7019_5"
+  },
+  {
+    "answer": "wall",
+    "type": 3,
+    "question_id": "v_video7019_6"
+  },
+  {
+    "answer": "suit",
+    "type": 3,
+    "question_id": "v_video7019_7"
+  },
+  {
+    "answer": "system",
+    "type": 3,
+    "question_id": "v_video7019_8"
+  },
+  {
+    "answer": "office",
+    "type": 3,
+    "question_id": "v_video7019_9"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7019_10"
+  },
+  {
+    "answer": "sit",
+    "type": 3,
+    "question_id": "v_video7019_11"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7019_12"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7019_13"
+  },
+  {
+    "answer": "wear",
+    "type": 3,
+    "question_id": "v_video7019_14"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7019_15"
+  },
+  {
+    "answer": "sit",
+    "type": 3,
+    "question_id": "v_video7019_16"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7019_17"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7019_18"
+  },
+  {
+    "answer": "explain",
+    "type": 3,
+    "question_id": "v_video7019_19"
+  },
+  {
+    "answer": "explain",
+    "type": 3,
+    "question_id": "v_video7019_20"
+  },
+  {
+    "answer": "explain",
+    "type": 3,
+    "question_id": "v_video7019_21"
+  },
+  {
+    "answer": "sit",
+    "type": 3,
+    "question_id": "v_video7019_22"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7019_23"
+  },
+  {
+    "answer": "room",
+    "type": 3,
+    "question_id": "v_video7019_24"
+  },
+  {
+    "answer": "camera",
+    "type": 3,
+    "question_id": "v_video7019_25"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7019_26"
+  },
+  {
+    "answer": "create",
+    "type": 3,
+    "question_id": "v_video7020_0"
+  },
+  {
+    "answer": "prepare",
+    "type": 3,
+    "question_id": "v_video7020_1"
+  },
+  {
+    "answer": "construct",
+    "type": 3,
+    "question_id": "v_video7020_2"
+  },
+  {
+    "answer": "craft",
+    "type": 3,
+    "question_id": "v_video7020_3"
+  },
+  {
+    "answer": "look",
+    "type": 3,
+    "question_id": "v_video7020_4"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7020_5"
+  },
+  {
+    "answer": "place",
+    "type": 3,
+    "question_id": "v_video7020_6"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7020_7"
+  },
+  {
+    "answer": "wrap",
+    "type": 3,
+    "question_id": "v_video7020_8"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7020_9"
+  },
+  {
+    "answer": "someone",
+    "type": 3,
+    "question_id": "v_video7020_10"
+  },
+  {
+    "answer": "art",
+    "type": 3,
+    "question_id": "v_video7020_11"
+  },
+  {
+    "answer": "art",
+    "type": 3,
+    "question_id": "v_video7020_12"
+  },
+  {
+    "answer": "project",
+    "type": 3,
+    "question_id": "v_video7020_13"
+  },
+  {
+    "answer": "craft",
+    "type": 3,
+    "question_id": "v_video7020_14"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7020_15"
+  },
+  {
+    "answer": "clay",
+    "type": 3,
+    "question_id": "v_video7020_16"
+  },
+  {
+    "answer": "someone",
+    "type": 3,
+    "question_id": "v_video7020_17"
+  },
+  {
+    "answer": "someone",
+    "type": 3,
+    "question_id": "v_video7020_18"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7020_19"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7020_20"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7020_21"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7020_22"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7020_23"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7020_24"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7020_25"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7020_26"
+  },
+  {
+    "answer": "leaf",
+    "type": 3,
+    "question_id": "v_video7020_27"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7020_28"
+  },
+  {
+    "answer": "craft",
+    "type": 3,
+    "question_id": "v_video7020_29"
+  },
+  {
+    "answer": "dough",
+    "type": 3,
+    "question_id": "v_video7020_30"
+  },
+  {
+    "answer": "leaf",
+    "type": 3,
+    "question_id": "v_video7020_31"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7020_32"
+  },
+  {
+    "answer": "someone",
+    "type": 3,
+    "question_id": "v_video7020_33"
+  },
+  {
+    "answer": "cake",
+    "type": 3,
+    "question_id": "v_video7020_34"
+  },
+  {
+    "answer": "player",
+    "type": 3,
+    "question_id": "v_video7021_0"
+  },
+  {
+    "answer": "baseball",
+    "type": 3,
+    "question_id": "v_video7021_1"
+  },
+  {
+    "answer": "baseball",
+    "type": 3,
+    "question_id": "v_video7021_2"
+  },
+  {
+    "answer": "ball",
+    "type": 3,
+    "question_id": "v_video7021_3"
+  },
+  {
+    "answer": "baseball",
+    "type": 3,
+    "question_id": "v_video7021_4"
+  },
+  {
+    "answer": "player",
+    "type": 3,
+    "question_id": "v_video7021_5"
+  },
+  {
+    "answer": "ball",
+    "type": 3,
+    "question_id": "v_video7021_6"
+  },
+  {
+    "answer": "announcer",
+    "type": 3,
+    "question_id": "v_video7021_7"
+  },
+  {
+    "answer": "ball",
+    "type": 3,
+    "question_id": "v_video7021_8"
+  },
+  {
+    "answer": "hit",
+    "type": 3,
+    "question_id": "v_video7021_9"
+  },
+  {
+    "answer": "play",
+    "type": 3,
+    "question_id": "v_video7021_10"
+  },
+  {
+    "answer": "play",
+    "type": 3,
+    "question_id": "v_video7021_11"
+  },
+  {
+    "answer": "play",
+    "type": 3,
+    "question_id": "v_video7021_12"
+  },
+  {
+    "answer": "call",
+    "type": 3,
+    "question_id": "v_video7021_13"
+  },
+  {
+    "answer": "hit",
+    "type": 3,
+    "question_id": "v_video7021_14"
+  },
+  {
+    "answer": "team",
+    "type": 3,
+    "question_id": "v_video7021_15"
+  },
+  {
+    "answer": "baseball",
+    "type": 3,
+    "question_id": "v_video7021_16"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7021_17"
+  },
+  {
+    "answer": "outfielder",
+    "type": 3,
+    "question_id": "v_video7021_18"
+  },
+  {
+    "answer": "baseball",
+    "type": 3,
+    "question_id": "v_video7021_19"
+  },
+  {
+    "answer": "ball",
+    "type": 3,
+    "question_id": "v_video7021_20"
+  },
+  {
+    "answer": "baseball",
+    "type": 3,
+    "question_id": "v_video7021_21"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7021_22"
+  },
+  {
+    "answer": "fashion",
+    "type": 3,
+    "question_id": "v_video7022_0"
+  },
+  {
+    "answer": "walk",
+    "type": 3,
+    "question_id": "v_video7022_1"
+  },
+  {
+    "answer": "fasion",
+    "type": 3,
+    "question_id": "v_video7022_2"
+  },
+  {
+    "answer": "walk",
+    "type": 3,
+    "question_id": "v_video7022_3"
+  },
+  {
+    "answer": "wear",
+    "type": 3,
+    "question_id": "v_video7022_4"
+  },
+  {
+    "answer": "ailse",
+    "type": 3,
+    "question_id": "v_video7022_5"
+  },
+  {
+    "answer": "walk",
+    "type": 3,
+    "question_id": "v_video7022_6"
+  },
+  {
+    "answer": "walk",
+    "type": 3,
+    "question_id": "v_video7022_7"
+  },
+  {
+    "answer": "walk",
+    "type": 3,
+    "question_id": "v_video7022_8"
+  },
+  {
+    "answer": "walk",
+    "type": 3,
+    "question_id": "v_video7022_9"
+  },
+  {
+    "answer": "walk",
+    "type": 3,
+    "question_id": "v_video7022_10"
+  },
+  {
+    "answer": "wear",
+    "type": 3,
+    "question_id": "v_video7022_11"
+  },
+  {
+    "answer": "walk",
+    "type": 3,
+    "question_id": "v_video7022_12"
+  },
+  {
+    "answer": "walk",
+    "type": 3,
+    "question_id": "v_video7022_13"
+  },
+  {
+    "answer": "stage",
+    "type": 3,
+    "question_id": "v_video7022_14"
+  },
+  {
+    "answer": "stage",
+    "type": 3,
+    "question_id": "v_video7022_15"
+  },
+  {
+    "answer": "runway",
+    "type": 3,
+    "question_id": "v_video7022_16"
+  },
+  {
+    "answer": "catwalk",
+    "type": 3,
+    "question_id": "v_video7022_17"
+  },
+  {
+    "answer": "walk",
+    "type": 3,
+    "question_id": "v_video7022_18"
+  },
+  {
+    "answer": "clothing",
+    "type": 3,
+    "question_id": "v_video7022_19"
+  },
+  {
+    "answer": "stage",
+    "type": 3,
+    "question_id": "v_video7022_20"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7023_0"
+  },
+  {
+    "answer": "display",
+    "type": 3,
+    "question_id": "v_video7023_1"
+  },
+  {
+    "answer": "pat",
+    "type": 3,
+    "question_id": "v_video7023_2"
+  },
+  {
+    "answer": "display",
+    "type": 3,
+    "question_id": "v_video7023_3"
+  },
+  {
+    "answer": "use",
+    "type": 3,
+    "question_id": "v_video7023_4"
+  },
+  {
+    "answer": "make",
+    "type": 3,
+    "question_id": "v_video7023_5"
+  },
+  {
+    "answer": "girl",
+    "type": 3,
+    "question_id": "v_video7023_6"
+  },
+  {
+    "answer": "foundation",
+    "type": 3,
+    "question_id": "v_video7023_7"
+  },
+  {
+    "answer": "lady",
+    "type": 3,
+    "question_id": "v_video7023_8"
+  },
+  {
+    "answer": "face",
+    "type": 3,
+    "question_id": "v_video7023_9"
+  },
+  {
+    "answer": "face",
+    "type": 3,
+    "question_id": "v_video7023_10"
+  },
+  {
+    "answer": "clean",
+    "type": 3,
+    "question_id": "v_video7024_0"
+  },
+  {
+    "answer": "clean",
+    "type": 3,
+    "question_id": "v_video7024_1"
+  },
+  {
+    "answer": "use",
+    "type": 3,
+    "question_id": "v_video7024_2"
+  },
+  {
+    "answer": "bath",
+    "type": 3,
+    "question_id": "v_video7024_3"
+  },
+  {
+    "answer": "clean",
+    "type": 3,
+    "question_id": "v_video7024_4"
+  },
+  {
+    "answer": "bath",
+    "type": 3,
+    "question_id": "v_video7024_5"
+  },
+  {
+    "answer": "put",
+    "type": 3,
+    "question_id": "v_video7024_6"
+  },
+  {
+    "answer": "tub",
+    "type": 3,
+    "question_id": "v_video7024_7"
+  },
+  {
+    "answer": "water",
+    "type": 3,
+    "question_id": "v_video7024_8"
+  },
+  {
+    "answer": "toy",
+    "type": 3,
+    "question_id": "v_video7024_9"
+  },
+  {
+    "answer": "toy",
+    "type": 3,
+    "question_id": "v_video7024_10"
+  },
+  {
+    "answer": "brush",
+    "type": 3,
+    "question_id": "v_video7024_11"
+  },
+  {
+    "answer": "cat",
+    "type": 3,
+    "question_id": "v_video7024_12"
+  },
+  {
+    "answer": "orange",
+    "type": 3,
+    "question_id": "v_video7024_13"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7024_14"
+  },
+  {
+    "answer": "toy",
+    "type": 3,
+    "question_id": "v_video7024_15"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7024_16"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7024_17"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7024_18"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7024_19"
+  },
+  {
+    "answer": "toy",
+    "type": 3,
+    "question_id": "v_video7024_20"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7024_21"
+  },
+  {
+    "answer": "brush",
+    "type": 3,
+    "question_id": "v_video7024_22"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7024_23"
+  },
+  {
+    "answer": "toy",
+    "type": 3,
+    "question_id": "v_video7024_24"
+  },
+  {
+    "answer": "bath",
+    "type": 3,
+    "question_id": "v_video7024_25"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7024_26"
+  },
+  {
+    "answer": "toy",
+    "type": 3,
+    "question_id": "v_video7024_27"
+  },
+  {
+    "answer": "scrubber",
+    "type": 3,
+    "question_id": "v_video7024_28"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7024_29"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7025_0"
+  },
+  {
+    "answer": "child",
+    "type": 3,
+    "question_id": "v_video7025_1"
+  },
+  {
+    "answer": "relax",
+    "type": 3,
+    "question_id": "v_video7025_2"
+  },
+  {
+    "answer": "swim",
+    "type": 3,
+    "question_id": "v_video7025_3"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7025_4"
+  },
+  {
+    "answer": "lake",
+    "type": 3,
+    "question_id": "v_video7025_5"
+  },
+  {
+    "answer": "video",
+    "type": 3,
+    "question_id": "v_video7025_6"
+  },
+  {
+    "answer": "field",
+    "type": 3,
+    "question_id": "v_video7025_7"
+  },
+  {
+    "answer": "dres",
+    "type": 3,
+    "question_id": "v_video7025_8"
+  },
+  {
+    "answer": "child",
+    "type": 3,
+    "question_id": "v_video7025_9"
+  },
+  {
+    "answer": "beach",
+    "type": 3,
+    "question_id": "v_video7025_10"
+  },
+  {
+    "answer": "beach",
+    "type": 3,
+    "question_id": "v_video7025_11"
+  },
+  {
+    "answer": "boy",
+    "type": 3,
+    "question_id": "v_video7025_12"
+  },
+  {
+    "answer": "child",
+    "type": 3,
+    "question_id": "v_video7025_13"
+  },
+  {
+    "answer": "gras",
+    "type": 3,
+    "question_id": "v_video7025_14"
+  },
+  {
+    "answer": "car",
+    "type": 3,
+    "question_id": "v_video7026_0"
+  },
+  {
+    "answer": "vehicle",
+    "type": 3,
+    "question_id": "v_video7026_1"
+  },
+  {
+    "answer": "car",
+    "type": 3,
+    "question_id": "v_video7026_2"
+  },
+  {
+    "answer": "introduce",
+    "type": 3,
+    "question_id": "v_video7026_3"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7026_4"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7026_5"
+  },
+  {
+    "answer": "explain",
+    "type": 3,
+    "question_id": "v_video7026_6"
+  },
+  {
+    "answer": "drive",
+    "type": 3,
+    "question_id": "v_video7026_7"
+  },
+  {
+    "answer": "describe",
+    "type": 3,
+    "question_id": "v_video7026_8"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7026_9"
+  },
+  {
+    "answer": "guy",
+    "type": 3,
+    "question_id": "v_video7026_10"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7026_11"
+  },
+  {
+    "answer": "vehicle",
+    "type": 3,
+    "question_id": "v_video7026_12"
+  },
+  {
+    "answer": "review",
+    "type": 3,
+    "question_id": "v_video7026_13"
+  },
+  {
+    "answer": "review",
+    "type": 3,
+    "question_id": "v_video7026_14"
+  },
+  {
+    "answer": "system",
+    "type": 3,
+    "question_id": "v_video7026_15"
+  },
+  {
+    "answer": "car",
+    "type": 3,
+    "question_id": "v_video7026_16"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7026_17"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7026_18"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7026_19"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7026_20"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7026_21"
+  },
+  {
+    "answer": "announcer",
+    "type": 3,
+    "question_id": "v_video7026_22"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7026_23"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7026_24"
+  },
+  {
+    "answer": "car",
+    "type": 3,
+    "question_id": "v_video7026_25"
+  },
+  {
+    "answer": "someone",
+    "type": 3,
+    "question_id": "v_video7026_26"
+  },
+  {
+    "answer": "car",
+    "type": 3,
+    "question_id": "v_video7026_27"
+  },
+  {
+    "answer": "discus",
+    "type": 3,
+    "question_id": "v_video7027_0"
+  },
+  {
+    "answer": "movie",
+    "type": 3,
+    "question_id": "v_video7027_1"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7027_2"
+  },
+  {
+    "answer": "load",
+    "type": 3,
+    "question_id": "v_video7027_3"
+  },
+  {
+    "answer": "speak",
+    "type": 3,
+    "question_id": "v_video7027_4"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7027_5"
+  },
+  {
+    "answer": "watch",
+    "type": 3,
+    "question_id": "v_video7027_6"
+  },
+  {
+    "answer": "load",
+    "type": 3,
+    "question_id": "v_video7027_7"
+  },
+  {
+    "answer": "begin",
+    "type": 3,
+    "question_id": "v_video7027_8"
+  },
+  {
+    "answer": "begin",
+    "type": 3,
+    "question_id": "v_video7027_9"
+  },
+  {
+    "answer": "tap",
+    "type": 3,
+    "question_id": "v_video7027_10"
+  },
+  {
+    "answer": "sit",
+    "type": 3,
+    "question_id": "v_video7027_11"
+  },
+  {
+    "answer": "space",
+    "type": 3,
+    "question_id": "v_video7027_12"
+  },
+  {
+    "answer": "picture",
+    "type": 3,
+    "question_id": "v_video7027_13"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7027_14"
+  },
+  {
+    "answer": "bench",
+    "type": 3,
+    "question_id": "v_video7027_15"
+  },
+  {
+    "answer": "glimpse",
+    "type": 3,
+    "question_id": "v_video7027_16"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7027_17"
+  },
+  {
+    "answer": "someone",
+    "type": 3,
+    "question_id": "v_video7027_18"
+  },
+  {
+    "answer": "screen",
+    "type": 3,
+    "question_id": "v_video7027_19"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7027_20"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7027_21"
+  },
+  {
+    "answer": "movie",
+    "type": 3,
+    "question_id": "v_video7027_22"
+  },
+  {
+    "answer": "globe",
+    "type": 3,
+    "question_id": "v_video7027_23"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7027_24"
+  },
+  {
+    "answer": "planet",
+    "type": 3,
+    "question_id": "v_video7027_25"
+  },
+  {
+    "answer": "world",
+    "type": 3,
+    "question_id": "v_video7027_26"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7028_0"
+  },
+  {
+    "answer": "explore",
+    "type": 3,
+    "question_id": "v_video7028_1"
+  },
+  {
+    "answer": "walk",
+    "type": 3,
+    "question_id": "v_video7028_2"
+  },
+  {
+    "answer": "perform",
+    "type": 3,
+    "question_id": "v_video7028_3"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7028_4"
+  },
+  {
+    "answer": "backstreet",
+    "type": 3,
+    "question_id": "v_video7028_5"
+  },
+  {
+    "answer": "restaurant",
+    "type": 3,
+    "question_id": "v_video7028_6"
+  },
+  {
+    "answer": "divider",
+    "type": 3,
+    "question_id": "v_video7028_7"
+  },
+  {
+    "answer": "asium",
+    "type": 3,
+    "question_id": "v_video7028_8"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7028_9"
+  },
+  {
+    "answer": "china",
+    "type": 3,
+    "question_id": "v_video7028_10"
+  },
+  {
+    "answer": "city",
+    "type": 3,
+    "question_id": "v_video7028_11"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7028_12"
+  },
+  {
+    "answer": "china",
+    "type": 3,
+    "question_id": "v_video7028_13"
+  },
+  {
+    "answer": "band",
+    "type": 3,
+    "question_id": "v_video7028_14"
+  },
+  {
+    "answer": "band",
+    "type": 3,
+    "question_id": "v_video7028_15"
+  },
+  {
+    "answer": "song",
+    "type": 3,
+    "question_id": "v_video7028_16"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7028_17"
+  },
+  {
+    "answer": "road",
+    "type": 3,
+    "question_id": "v_video7028_18"
+  },
+  {
+    "answer": "singer",
+    "type": 3,
+    "question_id": "v_video7028_19"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7028_20"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7028_21"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7028_22"
+  },
+  {
+    "answer": "walk",
+    "type": 3,
+    "question_id": "v_video7028_23"
+  },
+  {
+    "answer": "pick",
+    "type": 3,
+    "question_id": "v_video7029_0"
+  },
+  {
+    "answer": "phone",
+    "type": 3,
+    "question_id": "v_video7029_1"
+  },
+  {
+    "answer": "telephone",
+    "type": 3,
+    "question_id": "v_video7029_2"
+  },
+  {
+    "answer": "taunt",
+    "type": 3,
+    "question_id": "v_video7029_3"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7029_4"
+  },
+  {
+    "answer": "watch",
+    "type": 3,
+    "question_id": "v_video7029_5"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7029_6"
+  },
+  {
+    "answer": "squidward",
+    "type": 3,
+    "question_id": "v_video7029_7"
+  },
+  {
+    "answer": "use",
+    "type": 3,
+    "question_id": "v_video7029_8"
+  },
+  {
+    "answer": "phone",
+    "type": 3,
+    "question_id": "v_video7029_9"
+  },
+  {
+    "answer": "phone",
+    "type": 3,
+    "question_id": "v_video7029_10"
+  },
+  {
+    "answer": "cartoon",
+    "type": 3,
+    "question_id": "v_video7029_11"
+  },
+  {
+    "answer": "spongebob",
+    "type": 3,
+    "question_id": "v_video7029_12"
+  },
+  {
+    "answer": "squidward",
+    "type": 3,
+    "question_id": "v_video7029_13"
+  },
+  {
+    "answer": "cartoon",
+    "type": 3,
+    "question_id": "v_video7029_14"
+  },
+  {
+    "answer": "spongebob",
+    "type": 3,
+    "question_id": "v_video7029_15"
+  },
+  {
+    "answer": "phone",
+    "type": 3,
+    "question_id": "v_video7029_16"
+  },
+  {
+    "answer": "cartoon",
+    "type": 3,
+    "question_id": "v_video7029_17"
+  },
+  {
+    "answer": "character",
+    "type": 3,
+    "question_id": "v_video7029_18"
+  },
+  {
+    "answer": "scene",
+    "type": 3,
+    "question_id": "v_video7029_19"
+  },
+  {
+    "answer": "squidward",
+    "type": 3,
+    "question_id": "v_video7029_20"
+  },
+  {
+    "answer": "spongebob",
+    "type": 3,
+    "question_id": "v_video7029_21"
+  },
+  {
+    "answer": "squidward",
+    "type": 3,
+    "question_id": "v_video7029_22"
+  },
+  {
+    "answer": "telephone",
+    "type": 3,
+    "question_id": "v_video7029_23"
+  },
+  {
+    "answer": "phone",
+    "type": 3,
+    "question_id": "v_video7029_24"
+  },
+  {
+    "answer": "scene",
+    "type": 3,
+    "question_id": "v_video7029_25"
+  },
+  {
+    "answer": "cartoon",
+    "type": 3,
+    "question_id": "v_video7029_26"
+  },
+  {
+    "answer": "spongebob",
+    "type": 3,
+    "question_id": "v_video7029_27"
+  },
+  {
+    "answer": "spongebob",
+    "type": 3,
+    "question_id": "v_video7029_28"
+  },
+  {
+    "answer": "squidward",
+    "type": 3,
+    "question_id": "v_video7029_29"
+  },
+  {
+    "answer": "half",
+    "type": 3,
+    "question_id": "v_video7029_30"
+  },
+  {
+    "answer": "squidward",
+    "type": 3,
+    "question_id": "v_video7029_31"
+  },
+  {
+    "answer": "someone",
+    "type": 3,
+    "question_id": "v_video7029_32"
+  },
+  {
+    "answer": "character",
+    "type": 3,
+    "question_id": "v_video7029_33"
+  },
+  {
+    "answer": "someone",
+    "type": 3,
+    "question_id": "v_video7029_34"
+  },
+  {
+    "answer": "dance",
+    "type": 3,
+    "question_id": "v_video7030_0"
+  },
+  {
+    "answer": "dance",
+    "type": 3,
+    "question_id": "v_video7030_1"
+  },
+  {
+    "answer": "group",
+    "type": 3,
+    "question_id": "v_video7030_2"
+  },
+  {
+    "answer": "instructor",
+    "type": 3,
+    "question_id": "v_video7030_3"
+  },
+  {
+    "answer": "room",
+    "type": 3,
+    "question_id": "v_video7030_4"
+  },
+  {
+    "answer": "floor",
+    "type": 3,
+    "question_id": "v_video7030_5"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7030_6"
+  },
+  {
+    "answer": "instruction",
+    "type": 3,
+    "question_id": "v_video7030_7"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7030_8"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7030_9"
+  },
+  {
+    "answer": "dance",
+    "type": 3,
+    "question_id": "v_video7030_10"
+  },
+  {
+    "answer": "teach",
+    "type": 3,
+    "question_id": "v_video7030_11"
+  },
+  {
+    "answer": "dance",
+    "type": 3,
+    "question_id": "v_video7030_12"
+  },
+  {
+    "answer": "instructor",
+    "type": 3,
+    "question_id": "v_video7030_13"
+  },
+  {
+    "answer": "ballroom",
+    "type": 3,
+    "question_id": "v_video7030_14"
+  },
+  {
+    "answer": "instructor",
+    "type": 3,
+    "question_id": "v_video7030_15"
+  },
+  {
+    "answer": "room",
+    "type": 3,
+    "question_id": "v_video7030_16"
+  },
+  {
+    "answer": "clas",
+    "type": 3,
+    "question_id": "v_video7030_17"
+  },
+  {
+    "answer": "teach",
+    "type": 3,
+    "question_id": "v_video7030_18"
+  },
+  {
+    "answer": "learn",
+    "type": 3,
+    "question_id": "v_video7030_19"
+  },
+  {
+    "answer": "dance",
+    "type": 3,
+    "question_id": "v_video7030_20"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7030_21"
+  },
+  {
+    "answer": "provide",
+    "type": 3,
+    "question_id": "v_video7030_22"
+  },
+  {
+    "answer": "dance",
+    "type": 3,
+    "question_id": "v_video7031_0"
+  },
+  {
+    "answer": "jog",
+    "type": 3,
+    "question_id": "v_video7031_1"
+  },
+  {
+    "answer": "play",
+    "type": 3,
+    "question_id": "v_video7031_2"
+  },
+  {
+    "answer": "play",
+    "type": 3,
+    "question_id": "v_video7031_3"
+  },
+  {
+    "answer": "play",
+    "type": 3,
+    "question_id": "v_video7031_4"
+  },
+  {
+    "answer": "dance",
+    "type": 3,
+    "question_id": "v_video7031_5"
+  },
+  {
+    "answer": "play",
+    "type": 3,
+    "question_id": "v_video7031_6"
+  },
+  {
+    "answer": "tell",
+    "type": 3,
+    "question_id": "v_video7031_7"
+  },
+  {
+    "answer": "jog",
+    "type": 3,
+    "question_id": "v_video7031_8"
+  },
+  {
+    "answer": "exercise",
+    "type": 3,
+    "question_id": "v_video7031_9"
+  },
+  {
+    "answer": "three",
+    "type": 3,
+    "question_id": "v_video7031_10"
+  },
+  {
+    "answer": "place",
+    "type": 3,
+    "question_id": "v_video7031_11"
+  },
+  {
+    "answer": "circle",
+    "type": 3,
+    "question_id": "v_video7031_12"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7031_13"
+  },
+  {
+    "answer": "mother",
+    "type": 3,
+    "question_id": "v_video7031_14"
+  },
+  {
+    "answer": "mom",
+    "type": 3,
+    "question_id": "v_video7031_15"
+  },
+  {
+    "answer": "family",
+    "type": 3,
+    "question_id": "v_video7031_16"
+  },
+  {
+    "answer": "place",
+    "type": 3,
+    "question_id": "v_video7031_17"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7031_18"
+  },
+  {
+    "answer": "two",
+    "type": 3,
+    "question_id": "v_video7031_19"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7031_20"
+  },
+  {
+    "answer": "jogging",
+    "type": 3,
+    "question_id": "v_video7031_21"
+  },
+  {
+    "answer": "skill",
+    "type": 3,
+    "question_id": "v_video7032_0"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7032_1"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7032_2"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7032_3"
+  },
+  {
+    "answer": "hardware",
+    "type": 3,
+    "question_id": "v_video7032_4"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7032_5"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7032_6"
+  },
+  {
+    "answer": "car",
+    "type": 3,
+    "question_id": "v_video7032_7"
+  },
+  {
+    "answer": "piece",
+    "type": 3,
+    "question_id": "v_video7032_8"
+  },
+  {
+    "answer": "detail",
+    "type": 3,
+    "question_id": "v_video7032_9"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7032_10"
+  },
+  {
+    "answer": "mechanic",
+    "type": 3,
+    "question_id": "v_video7032_11"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7032_12"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7032_13"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7032_14"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7032_15"
+  },
+  {
+    "answer": "item",
+    "type": 3,
+    "question_id": "v_video7032_16"
+  },
+  {
+    "answer": "demonstrate",
+    "type": 3,
+    "question_id": "v_video7032_17"
+  },
+  {
+    "answer": "work",
+    "type": 3,
+    "question_id": "v_video7032_18"
+  },
+  {
+    "answer": "teach",
+    "type": 3,
+    "question_id": "v_video7032_19"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7032_20"
+  },
+  {
+    "answer": "repair",
+    "type": 3,
+    "question_id": "v_video7032_21"
+  },
+  {
+    "answer": "explain",
+    "type": 3,
+    "question_id": "v_video7032_22"
+  },
+  {
+    "answer": "something",
+    "type": 3,
+    "question_id": "v_video7033_0"
+  },
+  {
+    "answer": "side",
+    "type": 3,
+    "question_id": "v_video7033_1"
+  },
+  {
+    "answer": "video",
+    "type": 3,
+    "question_id": "v_video7033_2"
+  },
+  {
+    "answer": "way",
+    "type": 3,
+    "question_id": "v_video7033_3"
+  },
+  {
+    "answer": "front",
+    "type": 3,
+    "question_id": "v_video7033_4"
+  },
+  {
+    "answer": "body",
+    "type": 3,
+    "question_id": "v_video7033_5"
+  },
+  {
+    "answer": "coach",
+    "type": 3,
+    "question_id": "v_video7033_6"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7033_7"
+  },
+  {
+    "answer": "coach",
+    "type": 3,
+    "question_id": "v_video7033_8"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7033_9"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7033_10"
+  },
+  {
+    "answer": "color",
+    "type": 3,
+    "question_id": "v_video7033_11"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7033_12"
+  },
+  {
+    "answer": "athlete",
+    "type": 3,
+    "question_id": "v_video7033_13"
+  },
+  {
+    "answer": "color",
+    "type": 3,
+    "question_id": "v_video7033_14"
+  },
+  {
+    "answer": "wear",
+    "type": 3,
+    "question_id": "v_video7033_15"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7033_16"
+  },
+  {
+    "answer": "stand",
+    "type": 3,
+    "question_id": "v_video7033_17"
+  },
+  {
+    "answer": "wear",
+    "type": 3,
+    "question_id": "v_video7033_18"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7033_19"
+  },
+  {
+    "answer": "wear",
+    "type": 3,
+    "question_id": "v_video7033_20"
+  },
+  {
+    "answer": "exercise",
+    "type": 3,
+    "question_id": "v_video7033_21"
+  },
+  {
+    "answer": "teach",
+    "type": 3,
+    "question_id": "v_video7033_22"
+  },
+  {
+    "answer": "explain",
+    "type": 3,
+    "question_id": "v_video7033_23"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7033_24"
+  },
+  {
+    "answer": "play",
+    "type": 3,
+    "question_id": "v_video7033_25"
+  },
+  {
+    "answer": "angle",
+    "type": 3,
+    "question_id": "v_video7033_26"
+  },
+  {
+    "answer": "activity",
+    "type": 3,
+    "question_id": "v_video7033_27"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7033_28"
+  },
+  {
+    "answer": "athlete",
+    "type": 3,
+    "question_id": "v_video7033_29"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7033_30"
+  },
+  {
+    "answer": "road",
+    "type": 3,
+    "question_id": "v_video7033_31"
+  },
+  {
+    "answer": "something",
+    "type": 3,
+    "question_id": "v_video7033_32"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7033_33"
+  },
+  {
+    "answer": "present",
+    "type": 3,
+    "question_id": "v_video7034_0"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7034_1"
+  },
+  {
+    "answer": "include",
+    "type": 3,
+    "question_id": "v_video7034_2"
+  },
+  {
+    "answer": "tos",
+    "type": 3,
+    "question_id": "v_video7034_3"
+  },
+  {
+    "answer": "describe",
+    "type": 3,
+    "question_id": "v_video7034_4"
+  },
+  {
+    "answer": "sit",
+    "type": 3,
+    "question_id": "v_video7034_5"
+  },
+  {
+    "answer": "baby",
+    "type": 3,
+    "question_id": "v_video7034_6"
+  },
+  {
+    "answer": "wear",
+    "type": 3,
+    "question_id": "v_video7034_7"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7034_8"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7034_9"
+  },
+  {
+    "answer": "hold",
+    "type": 3,
+    "question_id": "v_video7034_10"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7034_11"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7034_12"
+  },
+  {
+    "answer": "stand",
+    "type": 3,
+    "question_id": "v_video7034_13"
+  },
+  {
+    "answer": "boy",
+    "type": 3,
+    "question_id": "v_video7034_14"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7034_15"
+  },
+  {
+    "answer": "toy",
+    "type": 3,
+    "question_id": "v_video7034_16"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7034_17"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7034_18"
+  },
+  {
+    "answer": "transition",
+    "type": 3,
+    "question_id": "v_video7034_19"
+  },
+  {
+    "answer": "youtuber",
+    "type": 3,
+    "question_id": "v_video7034_20"
+  },
+  {
+    "answer": "segment",
+    "type": 3,
+    "question_id": "v_video7034_21"
+  },
+  {
+    "answer": "individual",
+    "type": 3,
+    "question_id": "v_video7034_22"
+  },
+  {
+    "answer": "news",
+    "type": 3,
+    "question_id": "v_video7034_23"
+  },
+  {
+    "answer": "boy",
+    "type": 3,
+    "question_id": "v_video7034_24"
+  },
+  {
+    "answer": "doll",
+    "type": 3,
+    "question_id": "v_video7034_25"
+  },
+  {
+    "answer": "subject",
+    "type": 3,
+    "question_id": "v_video7034_26"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7034_27"
+  },
+  {
+    "answer": "boy",
+    "type": 3,
+    "question_id": "v_video7034_28"
+  },
+  {
+    "answer": "doll",
+    "type": 3,
+    "question_id": "v_video7034_29"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7034_30"
+  },
+  {
+    "answer": "selfie",
+    "type": 3,
+    "question_id": "v_video7034_31"
+  },
+  {
+    "answer": "toy",
+    "type": 3,
+    "question_id": "v_video7034_32"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7034_33"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7034_34"
+  },
+  {
+    "answer": "leg",
+    "type": 3,
+    "question_id": "v_video7034_35"
+  },
+  {
+    "answer": "play",
+    "type": 3,
+    "question_id": "v_video7035_0"
+  },
+  {
+    "answer": "play",
+    "type": 3,
+    "question_id": "v_video7035_1"
+  },
+  {
+    "answer": "speak",
+    "type": 3,
+    "question_id": "v_video7035_2"
+  },
+  {
+    "answer": "play",
+    "type": 3,
+    "question_id": "v_video7035_3"
+  },
+  {
+    "answer": "shake",
+    "type": 3,
+    "question_id": "v_video7035_4"
+  },
+  {
+    "answer": "move",
+    "type": 3,
+    "question_id": "v_video7035_5"
+  },
+  {
+    "answer": "spread",
+    "type": 3,
+    "question_id": "v_video7035_6"
+  },
+  {
+    "answer": "move",
+    "type": 3,
+    "question_id": "v_video7035_7"
+  },
+  {
+    "answer": "play",
+    "type": 3,
+    "question_id": "v_video7035_8"
+  },
+  {
+    "answer": "play",
+    "type": 3,
+    "question_id": "v_video7035_9"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7035_10"
+  },
+  {
+    "answer": "gamer",
+    "type": 3,
+    "question_id": "v_video7035_11"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7035_12"
+  },
+  {
+    "answer": "game",
+    "type": 3,
+    "question_id": "v_video7035_13"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7035_14"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7035_15"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7035_16"
+  },
+  {
+    "answer": "game",
+    "type": 3,
+    "question_id": "v_video7035_17"
+  },
+  {
+    "answer": "game",
+    "type": 3,
+    "question_id": "v_video7035_18"
+  },
+  {
+    "answer": "video",
+    "type": 3,
+    "question_id": "v_video7035_19"
+  },
+  {
+    "answer": "blue",
+    "type": 3,
+    "question_id": "v_video7035_20"
+  },
+  {
+    "answer": "lighting",
+    "type": 3,
+    "question_id": "v_video7035_21"
+  },
+  {
+    "answer": "activity",
+    "type": 3,
+    "question_id": "v_video7035_22"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7035_23"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7035_24"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7035_25"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7035_26"
+  },
+  {
+    "answer": "computer",
+    "type": 3,
+    "question_id": "v_video7035_27"
+  },
+  {
+    "answer": "screen",
+    "type": 3,
+    "question_id": "v_video7035_28"
+  },
+  {
+    "answer": "beam",
+    "type": 3,
+    "question_id": "v_video7035_29"
+  },
+  {
+    "answer": "character",
+    "type": 3,
+    "question_id": "v_video7035_30"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7035_31"
+  },
+  {
+    "answer": "game",
+    "type": 3,
+    "question_id": "v_video7035_32"
+  },
+  {
+    "answer": "computer",
+    "type": 3,
+    "question_id": "v_video7035_33"
+  },
+  {
+    "answer": "warcraft",
+    "type": 3,
+    "question_id": "v_video7035_34"
+  },
+  {
+    "answer": "warcraft",
+    "type": 3,
+    "question_id": "v_video7035_35"
+  },
+  {
+    "answer": "place",
+    "type": 3,
+    "question_id": "v_video7036_0"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7036_1"
+  },
+  {
+    "answer": "garden",
+    "type": 3,
+    "question_id": "v_video7036_2"
+  },
+  {
+    "answer": "house",
+    "type": 3,
+    "question_id": "v_video7036_3"
+  },
+  {
+    "answer": "garden",
+    "type": 3,
+    "question_id": "v_video7036_4"
+  },
+  {
+    "answer": "garden",
+    "type": 3,
+    "question_id": "v_video7036_5"
+  },
+  {
+    "answer": "island",
+    "type": 3,
+    "question_id": "v_video7036_6"
+  },
+  {
+    "answer": "place",
+    "type": 3,
+    "question_id": "v_video7036_7"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7036_8"
+  },
+  {
+    "answer": "roof",
+    "type": 3,
+    "question_id": "v_video7036_9"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7036_10"
+  },
+  {
+    "answer": "present",
+    "type": 3,
+    "question_id": "v_video7036_11"
+  },
+  {
+    "answer": "record",
+    "type": 3,
+    "question_id": "v_video7036_12"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7036_13"
+  },
+  {
+    "answer": "building",
+    "type": 3,
+    "question_id": "v_video7036_14"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7036_15"
+  },
+  {
+    "answer": "play",
+    "type": 3,
+    "question_id": "v_video7037_0"
+  },
+  {
+    "answer": "play",
+    "type": 3,
+    "question_id": "v_video7037_1"
+  },
+  {
+    "answer": "football",
+    "type": 3,
+    "question_id": "v_video7037_2"
+  },
+  {
+    "answer": "dance",
+    "type": 3,
+    "question_id": "v_video7037_3"
+  },
+  {
+    "answer": "play",
+    "type": 3,
+    "question_id": "v_video7037_4"
+  },
+  {
+    "answer": "glas",
+    "type": 3,
+    "question_id": "v_video7037_5"
+  },
+  {
+    "answer": "video",
+    "type": 3,
+    "question_id": "v_video7037_6"
+  },
+  {
+    "answer": "spin",
+    "type": 3,
+    "question_id": "v_video7037_7"
+  },
+  {
+    "answer": "basket",
+    "type": 3,
+    "question_id": "v_video7037_8"
+  },
+  {
+    "answer": "play",
+    "type": 3,
+    "question_id": "v_video7037_9"
+  },
+  {
+    "answer": "football",
+    "type": 3,
+    "question_id": "v_video7037_10"
+  },
+  {
+    "answer": "music",
+    "type": 3,
+    "question_id": "v_video7037_11"
+  },
+  {
+    "answer": "world",
+    "type": 3,
+    "question_id": "v_video7037_12"
+  },
+  {
+    "answer": "program",
+    "type": 3,
+    "question_id": "v_video7037_13"
+  },
+  {
+    "answer": "basketball",
+    "type": 3,
+    "question_id": "v_video7037_14"
+  },
+  {
+    "answer": "video",
+    "type": 3,
+    "question_id": "v_video7037_15"
+  },
+  {
+    "answer": "screen",
+    "type": 3,
+    "question_id": "v_video7037_16"
+  },
+  {
+    "answer": "video",
+    "type": 3,
+    "question_id": "v_video7037_17"
+  },
+  {
+    "answer": "basketball",
+    "type": 3,
+    "question_id": "v_video7037_18"
+  },
+  {
+    "answer": "video",
+    "type": 3,
+    "question_id": "v_video7037_19"
+  },
+  {
+    "answer": "game",
+    "type": 3,
+    "question_id": "v_video7037_20"
+  },
+  {
+    "answer": "sport",
+    "type": 3,
+    "question_id": "v_video7037_21"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7038_0"
+  },
+  {
+    "answer": "food",
+    "type": 3,
+    "question_id": "v_video7038_1"
+  },
+  {
+    "answer": "kitchenthere",
+    "type": 3,
+    "question_id": "v_video7038_2"
+  },
+  {
+    "answer": "liquid",
+    "type": 3,
+    "question_id": "v_video7038_3"
+  },
+  {
+    "answer": "fry",
+    "type": 3,
+    "question_id": "v_video7038_4"
+  },
+  {
+    "answer": "chef",
+    "type": 3,
+    "question_id": "v_video7038_5"
+  },
+  {
+    "answer": "crab",
+    "type": 3,
+    "question_id": "v_video7038_6"
+  },
+  {
+    "answer": "kitchen",
+    "type": 3,
+    "question_id": "v_video7038_7"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7038_8"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7038_9"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7038_10"
+  },
+  {
+    "answer": "kitchen",
+    "type": 3,
+    "question_id": "v_video7038_11"
+  },
+  {
+    "answer": "someone",
+    "type": 3,
+    "question_id": "v_video7038_12"
+  },
+  {
+    "answer": "crab",
+    "type": 3,
+    "question_id": "v_video7038_13"
+  },
+  {
+    "answer": "someone",
+    "type": 3,
+    "question_id": "v_video7038_14"
+  },
+  {
+    "answer": "fry",
+    "type": 3,
+    "question_id": "v_video7038_15"
+  },
+  {
+    "answer": "boil",
+    "type": 3,
+    "question_id": "v_video7038_16"
+  },
+  {
+    "answer": "prepare",
+    "type": 3,
+    "question_id": "v_video7038_17"
+  },
+  {
+    "answer": "melt",
+    "type": 3,
+    "question_id": "v_video7038_18"
+  },
+  {
+    "answer": "stir",
+    "type": 3,
+    "question_id": "v_video7038_19"
+  },
+  {
+    "answer": "explain",
+    "type": 3,
+    "question_id": "v_video7038_20"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7038_21"
+  },
+  {
+    "answer": "music",
+    "type": 3,
+    "question_id": "v_video7039_0"
+  },
+  {
+    "answer": "fashion",
+    "type": 3,
+    "question_id": "v_video7039_1"
+  },
+  {
+    "answer": "stage",
+    "type": 3,
+    "question_id": "v_video7039_2"
+  },
+  {
+    "answer": "music",
+    "type": 3,
+    "question_id": "v_video7039_3"
+  },
+  {
+    "answer": "runway",
+    "type": 3,
+    "question_id": "v_video7039_4"
+  },
+  {
+    "answer": "band",
+    "type": 3,
+    "question_id": "v_video7039_5"
+  },
+  {
+    "answer": "model",
+    "type": 3,
+    "question_id": "v_video7039_6"
+  },
+  {
+    "answer": "song",
+    "type": 3,
+    "question_id": "v_video7039_7"
+  },
+  {
+    "answer": "runway",
+    "type": 3,
+    "question_id": "v_video7039_8"
+  },
+  {
+    "answer": "catwalk",
+    "type": 3,
+    "question_id": "v_video7039_9"
+  },
+  {
+    "answer": "stage",
+    "type": 3,
+    "question_id": "v_video7039_10"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7039_11"
+  },
+  {
+    "answer": "wear",
+    "type": 3,
+    "question_id": "v_video7039_12"
+  },
+  {
+    "answer": "walk",
+    "type": 3,
+    "question_id": "v_video7039_13"
+  },
+  {
+    "answer": "walk",
+    "type": 3,
+    "question_id": "v_video7039_14"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7039_15"
+  },
+  {
+    "answer": "walk",
+    "type": 3,
+    "question_id": "v_video7039_16"
+  },
+  {
+    "answer": "write",
+    "type": 3,
+    "question_id": "v_video7040_0"
+  },
+  {
+    "answer": "something",
+    "type": 3,
+    "question_id": "v_video7040_1"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7040_2"
+  },
+  {
+    "answer": "discus",
+    "type": 3,
+    "question_id": "v_video7040_3"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7040_4"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7040_5"
+  },
+  {
+    "answer": "whiteboard",
+    "type": 3,
+    "question_id": "v_video7040_6"
+  },
+  {
+    "answer": "diagram",
+    "type": 3,
+    "question_id": "v_video7040_7"
+  },
+  {
+    "answer": "something",
+    "type": 3,
+    "question_id": "v_video7040_8"
+  },
+  {
+    "answer": "board",
+    "type": 3,
+    "question_id": "v_video7040_9"
+  },
+  {
+    "answer": "write",
+    "type": 3,
+    "question_id": "v_video7040_10"
+  },
+  {
+    "answer": "boy",
+    "type": 3,
+    "question_id": "v_video7040_11"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7040_12"
+  },
+  {
+    "answer": "explain",
+    "type": 3,
+    "question_id": "v_video7040_13"
+  },
+  {
+    "answer": "discus",
+    "type": 3,
+    "question_id": "v_video7040_14"
+  },
+  {
+    "answer": "laugh",
+    "type": 3,
+    "question_id": "v_video7040_15"
+  },
+  {
+    "answer": "demonstrate",
+    "type": 3,
+    "question_id": "v_video7040_16"
+  },
+  {
+    "answer": "draw",
+    "type": 3,
+    "question_id": "v_video7040_17"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7040_18"
+  },
+  {
+    "answer": "whiteboard",
+    "type": 3,
+    "question_id": "v_video7040_19"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7040_20"
+  },
+  {
+    "answer": "use",
+    "type": 3,
+    "question_id": "v_video7040_21"
+  },
+  {
+    "answer": "explain",
+    "type": 3,
+    "question_id": "v_video7040_22"
+  },
+  {
+    "answer": "explain",
+    "type": 3,
+    "question_id": "v_video7040_23"
+  },
+  {
+    "answer": "board",
+    "type": 3,
+    "question_id": "v_video7040_24"
+  },
+  {
+    "answer": "two",
+    "type": 3,
+    "question_id": "v_video7040_25"
+  },
+  {
+    "answer": "restaurant",
+    "type": 3,
+    "question_id": "v_video7041_0"
+  },
+  {
+    "answer": "party",
+    "type": 3,
+    "question_id": "v_video7041_1"
+  },
+  {
+    "answer": "party",
+    "type": 3,
+    "question_id": "v_video7041_2"
+  },
+  {
+    "answer": "music",
+    "type": 3,
+    "question_id": "v_video7041_3"
+  },
+  {
+    "answer": "room",
+    "type": 3,
+    "question_id": "v_video7041_4"
+  },
+  {
+    "answer": "movie",
+    "type": 3,
+    "question_id": "v_video7041_5"
+  },
+  {
+    "answer": "room",
+    "type": 3,
+    "question_id": "v_video7041_6"
+  },
+  {
+    "answer": "dance",
+    "type": 3,
+    "question_id": "v_video7041_7"
+  },
+  {
+    "answer": "dance",
+    "type": 3,
+    "question_id": "v_video7041_8"
+  },
+  {
+    "answer": "dance",
+    "type": 3,
+    "question_id": "v_video7041_9"
+  },
+  {
+    "answer": "dance",
+    "type": 3,
+    "question_id": "v_video7041_10"
+  },
+  {
+    "answer": "dance",
+    "type": 3,
+    "question_id": "v_video7041_11"
+  },
+  {
+    "answer": "dance",
+    "type": 3,
+    "question_id": "v_video7041_12"
+  },
+  {
+    "answer": "dance",
+    "type": 3,
+    "question_id": "v_video7041_13"
+  },
+  {
+    "answer": "dance",
+    "type": 3,
+    "question_id": "v_video7041_14"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7041_15"
+  },
+  {
+    "answer": "dance",
+    "type": 3,
+    "question_id": "v_video7041_16"
+  },
+  {
+    "answer": "dance",
+    "type": 3,
+    "question_id": "v_video7041_17"
+  },
+  {
+    "answer": "dance",
+    "type": 3,
+    "question_id": "v_video7041_18"
+  },
+  {
+    "answer": "dance",
+    "type": 3,
+    "question_id": "v_video7041_19"
+  },
+  {
+    "answer": "bedroom",
+    "type": 3,
+    "question_id": "v_video7042_0"
+  },
+  {
+    "answer": "bedroom",
+    "type": 3,
+    "question_id": "v_video7042_1"
+  },
+  {
+    "answer": "two",
+    "type": 3,
+    "question_id": "v_video7042_2"
+  },
+  {
+    "answer": "eye",
+    "type": 3,
+    "question_id": "v_video7042_3"
+  },
+  {
+    "answer": "room",
+    "type": 3,
+    "question_id": "v_video7042_4"
+  },
+  {
+    "answer": "eye",
+    "type": 3,
+    "question_id": "v_video7042_5"
+  },
+  {
+    "answer": "room",
+    "type": 3,
+    "question_id": "v_video7042_6"
+  },
+  {
+    "answer": "bos",
+    "type": 3,
+    "question_id": "v_video7042_7"
+  },
+  {
+    "answer": "bigg",
+    "type": 3,
+    "question_id": "v_video7042_8"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7042_9"
+  },
+  {
+    "answer": "eye",
+    "type": 3,
+    "question_id": "v_video7042_10"
+  },
+  {
+    "answer": "advertisement",
+    "type": 3,
+    "question_id": "v_video7042_11"
+  },
+  {
+    "answer": "hug",
+    "type": 3,
+    "question_id": "v_video7042_12"
+  },
+  {
+    "answer": "hug",
+    "type": 3,
+    "question_id": "v_video7042_13"
+  },
+  {
+    "answer": "blink",
+    "type": 3,
+    "question_id": "v_video7042_14"
+  },
+  {
+    "answer": "blink",
+    "type": 3,
+    "question_id": "v_video7042_15"
+  },
+  {
+    "answer": "hug",
+    "type": 3,
+    "question_id": "v_video7042_16"
+  },
+  {
+    "answer": "hug",
+    "type": 3,
+    "question_id": "v_video7042_17"
+  },
+  {
+    "answer": "blue",
+    "type": 3,
+    "question_id": "v_video7043_0"
+  },
+  {
+    "answer": "google",
+    "type": 3,
+    "question_id": "v_video7043_1"
+  },
+  {
+    "answer": "google",
+    "type": 3,
+    "question_id": "v_video7043_2"
+  },
+  {
+    "answer": "segment",
+    "type": 3,
+    "question_id": "v_video7043_3"
+  },
+  {
+    "answer": "car",
+    "type": 3,
+    "question_id": "v_video7043_4"
+  },
+  {
+    "answer": "car",
+    "type": 3,
+    "question_id": "v_video7043_5"
+  },
+  {
+    "answer": "narrator",
+    "type": 3,
+    "question_id": "v_video7043_6"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7043_7"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7043_8"
+  },
+  {
+    "answer": "blue",
+    "type": 3,
+    "question_id": "v_video7043_9"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7043_10"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7043_11"
+  },
+  {
+    "answer": "drive",
+    "type": 3,
+    "question_id": "v_video7043_12"
+  },
+  {
+    "answer": "drive",
+    "type": 3,
+    "question_id": "v_video7043_13"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7043_14"
+  },
+  {
+    "answer": "vehicle",
+    "type": 3,
+    "question_id": "v_video7043_15"
+  },
+  {
+    "answer": "classy",
+    "type": 3,
+    "question_id": "v_video7043_16"
+  },
+  {
+    "answer": "driving",
+    "type": 3,
+    "question_id": "v_video7043_17"
+  },
+  {
+    "answer": "road",
+    "type": 3,
+    "question_id": "v_video7043_18"
+  },
+  {
+    "answer": "car",
+    "type": 3,
+    "question_id": "v_video7043_19"
+  },
+  {
+    "answer": "car",
+    "type": 3,
+    "question_id": "v_video7043_20"
+  },
+  {
+    "answer": "road",
+    "type": 3,
+    "question_id": "v_video7043_21"
+  },
+  {
+    "answer": "car",
+    "type": 3,
+    "question_id": "v_video7043_22"
+  },
+  {
+    "answer": "road",
+    "type": 3,
+    "question_id": "v_video7043_23"
+  },
+  {
+    "answer": "road",
+    "type": 3,
+    "question_id": "v_video7043_24"
+  },
+  {
+    "answer": "google",
+    "type": 3,
+    "question_id": "v_video7043_25"
+  },
+  {
+    "answer": "discus",
+    "type": 3,
+    "question_id": "v_video7044_0"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7044_1"
+  },
+  {
+    "answer": "stand",
+    "type": 3,
+    "question_id": "v_video7044_2"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7044_3"
+  },
+  {
+    "answer": "tell",
+    "type": 3,
+    "question_id": "v_video7044_4"
+  },
+  {
+    "answer": "lean",
+    "type": 3,
+    "question_id": "v_video7044_5"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7044_6"
+  },
+  {
+    "answer": "work",
+    "type": 3,
+    "question_id": "v_video7044_7"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7044_8"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7044_9"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7044_10"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7044_11"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7044_12"
+  },
+  {
+    "answer": "newsreporter",
+    "type": 3,
+    "question_id": "v_video7044_13"
+  },
+  {
+    "answer": "room",
+    "type": 3,
+    "question_id": "v_video7044_14"
+  },
+  {
+    "answer": "explain",
+    "type": 3,
+    "question_id": "v_video7045_0"
+  },
+  {
+    "answer": "cameraman",
+    "type": 3,
+    "question_id": "v_video7045_1"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7045_2"
+  },
+  {
+    "answer": "photographer",
+    "type": 3,
+    "question_id": "v_video7045_3"
+  },
+  {
+    "answer": "shoot",
+    "type": 3,
+    "question_id": "v_video7045_4"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7045_5"
+  },
+  {
+    "answer": "basketball",
+    "type": 3,
+    "question_id": "v_video7045_6"
+  },
+  {
+    "answer": "something",
+    "type": 3,
+    "question_id": "v_video7045_7"
+  },
+  {
+    "answer": "photography",
+    "type": 3,
+    "question_id": "v_video7045_8"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7045_9"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7045_10"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7045_11"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7045_12"
+  },
+  {
+    "answer": "use",
+    "type": 3,
+    "question_id": "v_video7045_13"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7045_14"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7045_15"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7046_0"
+  },
+  {
+    "answer": "burn",
+    "type": 3,
+    "question_id": "v_video7046_1"
+  },
+  {
+    "answer": "record",
+    "type": 3,
+    "question_id": "v_video7046_2"
+  },
+  {
+    "answer": "flash",
+    "type": 3,
+    "question_id": "v_video7046_3"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7046_4"
+  },
+  {
+    "answer": "alternate",
+    "type": 3,
+    "question_id": "v_video7046_5"
+  },
+  {
+    "answer": "song",
+    "type": 3,
+    "question_id": "v_video7046_6"
+  },
+  {
+    "answer": "screen",
+    "type": 3,
+    "question_id": "v_video7046_7"
+  },
+  {
+    "answer": "song",
+    "type": 3,
+    "question_id": "v_video7046_8"
+  },
+  {
+    "answer": "screen",
+    "type": 3,
+    "question_id": "v_video7046_9"
+  },
+  {
+    "answer": "song",
+    "type": 3,
+    "question_id": "v_video7046_10"
+  },
+  {
+    "answer": "song",
+    "type": 3,
+    "question_id": "v_video7046_11"
+  },
+  {
+    "answer": "someone",
+    "type": 3,
+    "question_id": "v_video7046_12"
+  },
+  {
+    "answer": "fire",
+    "type": 3,
+    "question_id": "v_video7046_13"
+  },
+  {
+    "answer": "screen",
+    "type": 3,
+    "question_id": "v_video7046_14"
+  },
+  {
+    "answer": "pink",
+    "type": 3,
+    "question_id": "v_video7046_15"
+  },
+  {
+    "answer": "music",
+    "type": 3,
+    "question_id": "v_video7046_16"
+  },
+  {
+    "answer": "computer",
+    "type": 3,
+    "question_id": "v_video7046_17"
+  },
+  {
+    "answer": "song",
+    "type": 3,
+    "question_id": "v_video7046_18"
+  },
+  {
+    "answer": "hang",
+    "type": 3,
+    "question_id": "v_video7047_0"
+  },
+  {
+    "answer": "present",
+    "type": 3,
+    "question_id": "v_video7047_1"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7047_2"
+  },
+  {
+    "answer": "speak",
+    "type": 3,
+    "question_id": "v_video7047_3"
+  },
+  {
+    "answer": "watch",
+    "type": 3,
+    "question_id": "v_video7047_4"
+  },
+  {
+    "answer": "look",
+    "type": 3,
+    "question_id": "v_video7047_5"
+  },
+  {
+    "answer": "hang",
+    "type": 3,
+    "question_id": "v_video7047_6"
+  },
+  {
+    "answer": "look",
+    "type": 3,
+    "question_id": "v_video7047_7"
+  },
+  {
+    "answer": "look",
+    "type": 3,
+    "question_id": "v_video7047_8"
+  },
+  {
+    "answer": "blow",
+    "type": 3,
+    "question_id": "v_video7047_9"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7047_10"
+  },
+  {
+    "answer": "visit",
+    "type": 3,
+    "question_id": "v_video7047_11"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7047_12"
+  },
+  {
+    "answer": "two",
+    "type": 3,
+    "question_id": "v_video7047_13"
+  },
+  {
+    "answer": "handbag",
+    "type": 3,
+    "question_id": "v_video7047_14"
+  },
+  {
+    "answer": "girl",
+    "type": 3,
+    "question_id": "v_video7047_15"
+  },
+  {
+    "answer": "two",
+    "type": 3,
+    "question_id": "v_video7047_16"
+  },
+  {
+    "answer": "horn",
+    "type": 3,
+    "question_id": "v_video7047_17"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7047_18"
+  },
+  {
+    "answer": "girl",
+    "type": 3,
+    "question_id": "v_video7047_19"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7047_20"
+  },
+  {
+    "answer": "clothing",
+    "type": 3,
+    "question_id": "v_video7047_21"
+  },
+  {
+    "answer": "shopping",
+    "type": 3,
+    "question_id": "v_video7047_22"
+  },
+  {
+    "answer": "market",
+    "type": 3,
+    "question_id": "v_video7047_23"
+  },
+  {
+    "answer": "two",
+    "type": 3,
+    "question_id": "v_video7047_24"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7047_25"
+  },
+  {
+    "answer": "bed",
+    "type": 3,
+    "question_id": "v_video7048_0"
+  },
+  {
+    "answer": "bed",
+    "type": 3,
+    "question_id": "v_video7048_1"
+  },
+  {
+    "answer": "movie",
+    "type": 3,
+    "question_id": "v_video7048_2"
+  },
+  {
+    "answer": "problem",
+    "type": 3,
+    "question_id": "v_video7048_3"
+  },
+  {
+    "answer": "telecast",
+    "type": 3,
+    "question_id": "v_video7048_4"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7048_5"
+  },
+  {
+    "answer": "conversation",
+    "type": 3,
+    "question_id": "v_video7048_6"
+  },
+  {
+    "answer": "wife",
+    "type": 3,
+    "question_id": "v_video7048_7"
+  },
+  {
+    "answer": "room",
+    "type": 3,
+    "question_id": "v_video7048_8"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7048_9"
+  },
+  {
+    "answer": "bed",
+    "type": 3,
+    "question_id": "v_video7048_10"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7048_11"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7048_12"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7048_13"
+  },
+  {
+    "answer": "wear",
+    "type": 3,
+    "question_id": "v_video7048_14"
+  },
+  {
+    "answer": "lay",
+    "type": 3,
+    "question_id": "v_video7048_15"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7048_16"
+  },
+  {
+    "answer": "sit",
+    "type": 3,
+    "question_id": "v_video7048_17"
+  },
+  {
+    "answer": "lay",
+    "type": 3,
+    "question_id": "v_video7048_18"
+  },
+  {
+    "answer": "sit",
+    "type": 3,
+    "question_id": "v_video7048_19"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7048_20"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7048_21"
+  },
+  {
+    "answer": "relax",
+    "type": 3,
+    "question_id": "v_video7048_22"
+  },
+  {
+    "answer": "lie",
+    "type": 3,
+    "question_id": "v_video7048_23"
+  },
+  {
+    "answer": "wear",
+    "type": 3,
+    "question_id": "v_video7048_24"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7048_25"
+  },
+  {
+    "answer": "scold",
+    "type": 3,
+    "question_id": "v_video7048_26"
+  },
+  {
+    "answer": "talk",
+    "type": 3,
+    "question_id": "v_video7048_27"
+  },
+  {
+    "answer": "relax",
+    "type": 3,
+    "question_id": "v_video7048_28"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7048_29"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7048_30"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7048_31"
+  },
+  {
+    "answer": "shirtles",
+    "type": 3,
+    "question_id": "v_video7048_32"
+  },
+  {
+    "answer": "sit",
+    "type": 3,
+    "question_id": "v_video7048_33"
+  },
+  {
+    "answer": "lounge",
+    "type": 3,
+    "question_id": "v_video7048_34"
+  },
+  {
+    "answer": "food",
+    "type": 3,
+    "question_id": "v_video7049_0"
+  },
+  {
+    "answer": "saurkraut",
+    "type": 3,
+    "question_id": "v_video7049_1"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7049_2"
+  },
+  {
+    "answer": "saurkraut",
+    "type": 3,
+    "question_id": "v_video7049_3"
+  },
+  {
+    "answer": "sauerkraut",
+    "type": 3,
+    "question_id": "v_video7049_4"
+  },
+  {
+    "answer": "dish",
+    "type": 3,
+    "question_id": "v_video7049_5"
+  },
+  {
+    "answer": "food",
+    "type": 3,
+    "question_id": "v_video7049_6"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7049_7"
+  },
+  {
+    "answer": "plate",
+    "type": 3,
+    "question_id": "v_video7049_8"
+  },
+  {
+    "answer": "someone",
+    "type": 3,
+    "question_id": "v_video7049_9"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7049_10"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7049_11"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7049_12"
+  },
+  {
+    "answer": "prepare",
+    "type": 3,
+    "question_id": "v_video7049_13"
+  },
+  {
+    "answer": "eat",
+    "type": 3,
+    "question_id": "v_video7049_14"
+  },
+  {
+    "answer": "put",
+    "type": 3,
+    "question_id": "v_video7049_15"
+  },
+  {
+    "answer": "serve",
+    "type": 3,
+    "question_id": "v_video7049_16"
+  },
+  {
+    "answer": "put",
+    "type": 3,
+    "question_id": "v_video7049_17"
+  },
+  {
+    "answer": "describe",
+    "type": 3,
+    "question_id": "v_video7049_18"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7049_19"
+  },
+  {
+    "answer": "food",
+    "type": 3,
+    "question_id": "v_video7049_20"
+  },
+  {
+    "answer": "food",
+    "type": 3,
+    "question_id": "v_video7049_21"
+  },
+  {
+    "answer": "food",
+    "type": 3,
+    "question_id": "v_video7049_22"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7049_23"
+  },
+  {
+    "answer": "food",
+    "type": 3,
+    "question_id": "v_video7049_24"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7049_25"
+  },
+  {
+    "answer": "someone",
+    "type": 3,
+    "question_id": "v_video7049_26"
+  },
+  {
+    "answer": "sauerkraut",
+    "type": 3,
+    "question_id": "v_video7049_27"
+  },
+  {
+    "answer": "stroller",
+    "type": 3,
+    "question_id": "v_video7050_0"
+  },
+  {
+    "answer": "stroller",
+    "type": 3,
+    "question_id": "v_video7050_1"
+  },
+  {
+    "answer": "stroller",
+    "type": 3,
+    "question_id": "v_video7050_2"
+  },
+  {
+    "answer": "stroller",
+    "type": 3,
+    "question_id": "v_video7050_3"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7050_4"
+  },
+  {
+    "answer": "demonstrate",
+    "type": 3,
+    "question_id": "v_video7050_5"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7050_6"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7050_7"
+  },
+  {
+    "answer": "show",
+    "type": 3,
+    "question_id": "v_video7050_8"
+  },
+  {
+    "answer": "fold",
+    "type": 3,
+    "question_id": "v_video7050_9"
+  },
+  {
+    "answer": "stroller",
+    "type": 3,
+    "question_id": "v_video7050_10"
+  },
+  {
+    "answer": "push",
+    "type": 3,
+    "question_id": "v_video7050_11"
+  },
+  {
+    "answer": "stroller",
+    "type": 3,
+    "question_id": "v_video7050_12"
+  },
+  {
+    "answer": "person",
+    "type": 3,
+    "question_id": "v_video7050_13"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7050_14"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7050_15"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7050_16"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7050_17"
+  },
+  {
+    "answer": "sidewalk",
+    "type": 3,
+    "question_id": "v_video7050_18"
+  },
+  {
+    "answer": "stroller",
+    "type": 3,
+    "question_id": "v_video7050_19"
+  },
+  {
+    "answer": "stroller",
+    "type": 3,
+    "question_id": "v_video7050_20"
+  },
+  {
+    "answer": "demo",
+    "type": 3,
+    "question_id": "v_video7050_21"
+  },
+  {
+    "answer": "stroller",
+    "type": 3,
+    "question_id": "v_video7050_22"
+  },
+  {
+    "answer": "trolley",
+    "type": 3,
+    "question_id": "v_video7050_23"
+  },
+  {
+    "answer": "stroller",
+    "type": 3,
+    "question_id": "v_video7050_24"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7050_25"
+  },
+  {
+    "answer": "baby",
+    "type": 3,
+    "question_id": "v_video7050_26"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7050_27"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7050_28"
+  },
+  {
+    "answer": "boner",
+    "type": 3,
+    "question_id": "v_video7051_0"
+  },
+  {
+    "answer": "movie",
+    "type": 3,
+    "question_id": "v_video7051_1"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7051_2"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7051_3"
+  },
+  {
+    "answer": "woman",
+    "type": 3,
+    "question_id": "v_video7051_4"
+  },
+  {
+    "answer": "movie",
+    "type": 3,
+    "question_id": "v_video7051_5"
+  },
+  {
+    "answer": "narrate",
+    "type": 3,
+    "question_id": "v_video7051_6"
+  },
+  {
+    "answer": "man",
+    "type": 3,
+    "question_id": "v_video7051_7"
+  }
+]
