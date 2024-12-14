@@ -82,7 +82,7 @@ bash scripts/eval/eval_qa_msvd.sh 26
   <tr>
     <th rowspan="2">Method</th>
     <th rowspan="2">Reduction Ratio</th>
-    <th rowspan="2">\# Token</th>
+    <th rowspan="2"># Token</th>
     <th colspan="2">TGIF-QA</th>
     <th colspan="2">MSVD-QA</th>
     <th colspan="2">MSRVTT-QA</th>
