@@ -32,7 +32,7 @@ class CLIPVisionTower(nn.Module):
 
         self.is_loaded = True
 
-    # FasterVLM
+    # [FasterVLM] Select image features and attentions
     def feature_select(self, image_forward_outs):
         image_features = image_forward_outs.hidden_states[self.select_layer]
         image_attentions = image_forward_outs.attentions[self.select_layer]
@@ -46,7 +46,7 @@ class CLIPVisionTower(nn.Module):
             raise ValueError(f'Unexpected select feature: {self.select_feature}')
         return image_features, image_attentions
 
-    # FasterVLM
+    # [FasterVLM] Get image features and attentions
     @torch.no_grad()
     def forward(self, images):
         if type(images) is list:

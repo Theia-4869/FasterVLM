@@ -48,7 +48,7 @@ class LlavaLlamaForCausalLM(LlamaForCausalLM, LlavaMetaForCausalLM):
         self.vocab_size = config.vocab_size
         self.lm_head = nn.Linear(config.hidden_size, config.vocab_size, bias=False)
 
-        # FasterVLM
+        # [FasterVLM] Visual token pruning config
         self.visual_token_num = visual_token_num
 
         # Initialize weights and apply final processing
@@ -57,7 +57,7 @@ class LlavaLlamaForCausalLM(LlamaForCausalLM, LlavaMetaForCausalLM):
     def get_model(self):
         return self.model
 
-    # FasterVLM
+    # [FasterVLM] Visual token number
     def get_visual_token_num(self):
         return self.visual_token_num
 

@@ -2,9 +2,11 @@
 
 *A simple yet effective training-free token pruning method that evaluates the importance of visual tokens more accurately by [CLS] attentions, making VLM inference faster.*
 
-[📄 [Paper](https://arxiv.org/abs/2412.01818)] [🎞️ [Project Page](https://theia4869.com/FasterVLM)]
+[📄 [Paper](https://arxiv.org/abs/2412.01818v1)] [🌐 [Project Page](https://theia4869.com/FasterVLM)]
 
 ## 📰 News
+
+🔥 **[2025/06/24]** A new version of FasterVLM named [VisPruner](https://github.com/Theia-4869/VisPruner) is released!
 
 🔥 **[2024/12/15]** Our [FasterVLM](https://github.com/Theia-4869/FasterVLM/tree/video) with [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA) is released!
 
@@ -79,9 +81,13 @@ bash scripts/analyze_attn_dispersion.sh
 
 ## 📋️ Evaluation
 
-The main implementation of FasterVLM is highlighted with `FasterVLM` annotations, mainly in [`llava_llama.py`](llava/model/language_model/llava_llama.py#L51), [`llava_arch.py`](llava/model/llava_arch.py#L140) and [`clip_encoder.py`](llava/model/multimodal_encoder/clip_encoder.py#L35).
+The main implementation of FasterVLM is highlighted with `[FasterVLM]` annotations, mainly in [`llava_llama.py`](llava/model/language_model/llava_llama.py#L51), [`llava_arch.py`](llava/model/llava_arch.py#L140) and [`clip_encoder.py`](llava/model/multimodal_encoder/clip_encoder.py#L35).
 
-We provide the evaluation scripts for each benchmark, you only need to set the remaining visual token number as the bash argument. For example, if you want to evaluate FasterVLM under 75% reduction ratio (576 * (1 - 0.75) = 144) on the VQAv2 benchmark, you can run the script `./scripts/evaluate_vqav2.sh` with argument `75`, you can run the following command:
+We provide the evaluation scripts for each benchmark:
+```bash
+CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/${DATASET}.sh ${VISUAL_TOKEN_NUMBER}
+```
+You only need to set the remaining visual token number as the bash argument. For example, if you want to evaluate FasterVLM under 75% reduction ratio (576 * (1 - 0.75) = 144) on the VQAv2 benchmark, you can run the script `./scripts/v1_5/eval/vqav2.sh` with argument `144`, you can run the following command:
 ```bash
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash scripts/v1_5/eval/vqav2.sh 144
 ```
@@ -102,7 +108,7 @@ The total number of remaining visual tokens is 29 * 5 = 145.
 
 ![results](assets/results.png)
 
-## 🎗️ Citation
+## 🔖 Citation
 
 If you find FasterVLM useful for your research and applications, please cite using this BibTeX:
 ```bibtex

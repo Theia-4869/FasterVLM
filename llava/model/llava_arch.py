@@ -137,34 +137,26 @@ class LlavaMetaForCausalLM(ABC):
     def get_vision_tower(self):
         return self.get_model().get_vision_tower()
 
-    # FasterVLM
+    # [FasterVLM] Generate index masks using visual attentions
     def encode_images(self, images):
-        image_features, image_attentions = self.get_model().get_vision_tower()(images) # (B, N, C), (B, M, N) = (1, 576, 1024), (1, 16, 576)
+        image_features, image_attentions = self.get_model().get_vision_tower()(images) # (B, N, C), (B, M, N)
 
-        # image_attentions = image_attentions.max(dim=1)[0] # (B, N) = (1, 576)
-        image_attentions = image_attentions.mean(dim=1) # (B, N) = (1, 576)
-
-        B, N = image_features.shape[:2]
+        B, N, C = image_features.shape
         visual_token_num = self.get_visual_token_num() # T
 
-        # prune visual tokens by random scores
-        # token_weights = torch.rand(B, N, device=image_features.device) # (B, N)
-        # token_indices = torch.topk(token_weights, k=visual_token_num, dim=1)[1] # (B, T)
-        # token_indices = torch.sort(token_indices, dim=1)[0] # (B, T)
-
         # prune visual tokens by attention scores
+        image_attentions = image_attentions.mean(dim=1) # (B, N)
         token_indices = torch.topk(image_attentions, k=visual_token_num, dim=1)[1] # (B, T)
-        token_indices = torch.sort(token_indices, dim=1)[0] # (B, T)
 
         # generate index mask
-        index_mask = torch.zeros(B, N, dtype=torch.bool, device=image_features.device) # (B, N)
-        index_mask.scatter_(1, token_indices, True) # (B, N)
+        index_masks = torch.zeros(B, N, dtype=torch.bool, device=image_features.device) # (B, N)
+        index_masks.scatter_(1, token_indices, True) # (B, N)
 
         image_features = self.get_model().mm_projector(image_features) # (B, N, D)
         
-        return image_features, index_mask, image_attentions
+        return image_features, index_masks, image_attentions
 
-    # FasterVLM
+    # [FasterVLM] Prune visual tokens according to index masks
     def prepare_inputs_labels_for_multimodal(
         self, input_ids, position_ids, attention_mask, past_key_values, labels,
         images, image_sizes=None
