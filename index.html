@@ -136,7 +136,7 @@
               </span>
 
               <span class="author-block">
-				Aosong Cheng<sup>1</sup>,
+				<a href="https://github.com/codeman-cheng">Aosong Cheng<sup>1</sup></a>,
               </span>
 
               <span class="author-block">
@@ -148,7 +148,7 @@
               </span>
             
               <span class="author-block">
-                Minqi Wang<sup>1</sup>,
+                <a href="https://github.com/Untitled-W">Minqi Wang<sup>1</sup></a>,
               </span>
 			
             </div>
@@ -156,15 +156,15 @@
 			<div class="is-size-4 publication-authors">
 			  
 			  <span class="author-block">
-			    Jiajun Cao<sup>1</sup>,
+			    <a href="https://github.com/hey-cjj">Jiajun Cao<sup>1</sup></a>,
 			  </span>
 			  
 			  <span class="author-block">
-			    Shaobo Guo<sup>2</sup>,
+			    <a href="https://scholar.google.com/citations?user=RdDDC9MAAAAJ">Shaobo Guo<sup>2</sup></a>,
 			  </span>
 			  
 			  <span class="author-block">
-			    Qi She<sup>2</sup>,
+			    <a href="https://qi-she.net/">Qi She<sup>2</sup></a>,
 			  </span>
 
               <span class="author-block">
@@ -185,7 +185,7 @@
 			
 			<div class="is-size-5 publication-authors">
 			  <span class="author-block">
-				<sup>2</sup> ByteDance AI Lab
+				<sup>2</sup> ByteDance
 			  </span>
 			  
 			  <span class="author-block">
@@ -272,9 +272,9 @@
 							we find that the cross-attentions between text and visual tokens in LLMs are inaccurate. Pruning tokens based on these inaccurate attentions 
 							leads to significant performance degradation, especially at high reduction ratios. To this end, we introduce <b>FasterVLM</b>, 
 							a simple yet effective training-free visual token pruning method that evaluates the importance of visual tokens more accurately 
-							by utilizing attentions between the<code>[CLS]</code>token and image tokens from the visual encoder. Since FasterVLM eliminates 
+							by utilizing attentions between the<tt>[CLS]</tt>token and image tokens from the visual encoder. Since FasterVLM eliminates 
 							redundant visual tokens immediately after the visual encoder, ensuring they do not interact with LLMs and resulting in faster VLM inference. 
-							Benefiting from the accuracy of<code>[CLS]</code>cross-attentions, FasterVLM can prune 95% of visual tokens while 
+							Benefiting from the accuracy of<tt>[CLS]</tt>cross-attentions, FasterVLM can prune 95% of visual tokens while 
 							maintaining 90% of the performance of LLaVA-1.5-7B. We apply FasterVLM to various VLMs, including LLaVA-1.5, LLaVA-NeXT, and Video-LLaVA, 
 							to demonstrate its effectiveness. Experimental results show that our FasterVLM maintains strong performance across various VLM architectures 
 							and reduction ratios, significantly outperforming existing text-visual attention-based methods. Our code is available at <a href="https://github.com/Theia-4869/FasterVLM">https://github.com/Theia-4869/FasterVLM</a>.
@@ -313,7 +313,7 @@
 						<p>
 							we describe two phenomena observed in the visual attention of LLM decoder, termed <b><i>attention shift</i></b> and <b><i>attention dispersion</i></b>, 
 							corresponding to the <b>position</b> and <b>intensity</b> of attention respectively. These phenomena are <b>absent</b> in the <b>visual encoder</b> of VLMs, 
-							which motivates our use of<code>[CLS]</code><b>attention</b> as a more reliable indicator of visual token importance.
+							which motivates our use of<tt>[CLS]</tt><b>attention</b> as a more reliable indicator of visual token importance.
 						</p>
 
 					</div>
@@ -337,7 +337,7 @@
 					</div>
 					<centering>
 						<div style="text-align: center;">
-							<img id="teaser" width="100%" src="static/image/attn_shift.png">     
+							<img id="teaser" width="100%" style="margin-bottom: 20px" src="static/image/attn_shift.png">     
 						</div>
 					</centering>
 					<div class="content has-text-justified">
@@ -359,20 +359,20 @@
 				<div class="column is-full-width">
 					<div class="content has-text-justified"> 
 						<p>
-							It is apparent that<code>[CLS]</code>attention is <b>highly focused</b>, with only <b>a few</b> tokens receiving <b>significant</b> attention. In contrast, 
+							It is apparent that<tt>[CLS]</tt>attention is <b>highly focused</b>, with only <b>a few</b> tokens receiving <b>significant</b> attention. In contrast, 
 							the last output token attention (as well as other text tokens) is more <b>dispersed</b>, with <b>multiple regions</b> across the image receiving high attention, 
 							making it challenging to select important visual tokens during pruning.
 						</p>
 					</div>
 					<centering>
 						<div style="text-align: center;">
-							<img id="teaser" width="100%" src="static/image/attn_dispersion.png">     
+							<img id="teaser" width="100%" style="margin-bottom: 20px" src="static/image/attn_dispersion.png">     
 						</div>
 					</centering>
 					<div class="content has-text-justified" style="margin-top: 10px;">
 						<p>
-						Most visual tokens receive <b>minimal</b><code>[CLS]</code>attention, while last attention is more uniformly distributed, which means it contains <b>more noise</b>. 
-						The lack of <i>attention dispersion</i> in<code>[CLS]</code>attention suggests it is a more <b>suitable indicator</b> for guiding visual token pruning.
+						Most visual tokens receive <b>minimal</b><tt>[CLS]</tt>attention, while last attention is more uniformly distributed, which means it contains <b>more noise</b>. 
+						The lack of <i>attention dispersion</i> in<tt>[CLS]</tt>attention suggests it is a more <b>suitable indicator</b> for guiding visual token pruning.
 						</p>
 					</div>
 				</div>
@@ -385,7 +385,7 @@
 		<!-- [CLS] Attention for Visual Token Pruning -->
 		<div class="columns is-centered has-text-centered">
 			<div class="column is-six-fifths">
-				<h2 class="title is-3"><code>[CLS]</code>Attention for Visual Token Pruning</h2>
+				<h2 class="title is-3"><tt>[CLS]</tt>Attention for Visual Token Pruning</h2>
 			</div>
 		</div>
 		
@@ -395,19 +395,19 @@
 				<div class="content has-text-justified"> 
 					<p>
 						Based on the above analysis of attention in VLMs, we propose <b>FasterVLM</b>, 
-						which uses<code>[CLS]</code>attention from the <b>visual encoder</b> as a more <b>accurate</b> indicator for visual token pruning. 
+						which uses<tt>[CLS]</tt>attention from the <b>visual encoder</b> as a more <b>accurate</b> indicator for visual token pruning. 
 						By removing redundant visual tokens <b>before</b> the LLM decoder, our approach could make VLM inference <b>faster</b> than methods 
 						that prune tokens <b>within</b> the LLM.
 					</p>
 				</div>
 				<centering>
 					<div style="text-align: center;">
-						<img id="teaser" width="100%" src="static/image/pipeline.gif">     
+						<img id="teaser" width="100%" style="margin-bottom: 20px" src="static/image/pipeline.gif">     
 					</div>
 				</centering>  
 				<div class="content has-text-justified"> 
 					<p>
-						We first <b>re-rank</b> image tokens using<code>[CLS]</code>attention from the <b>visual encoder</b> and prune the <b>last R%</b>. The <b>remaining</b> image tokens, 
+						We first <b>re-rank</b> image tokens using<tt>[CLS]</tt>attention from the <b>visual encoder</b> and prune the <b>last R%</b>. The <b>remaining</b> image tokens, 
 						after passing through the multi-modal projector, are combined with language instructions as input to the language model for response generation. 
 						Since redundant image tokens are removed <b>before</b> the language model, <b>FasterVLM</b> can make the inference of the entire VLM even <b>faster</b> than pruning <b>within</b> the language model.
 					</p>
@@ -548,9 +548,8 @@
 				If you have any questions, please feel free to contact us:
 			</p>
 			<ul style="list-style-type: none; padding: 0; margin-left: 50px">
-				<li><span style="font-weight: bold;">Qizhe Zhang: </span><span>theia@pku.edu.cn</span></li>
-				<li><span style="font-weight: bold;">Ming Lu: </span><span>lu199192@gmail.com</span></li>
-				<li><span style="font-weight: bold;">Shanghang Zhang: </span><span>shanghang@pku.edu.cn</span></li>
+				<li><span style="font-weight: bold;">Qizhe Zhang: </span><span><a href="mailto:theia@pku.edu.cn">theia@pku.edu.cn</a></span></li>
+				<li><span style="font-weight: bold;">Shanghang Zhang: </span><span><a href="mailto:shanghang@pku.edu.cn">shanghang@pku.edu.cn</a></span></li>
 			</ul>
 	  </div>
 	</section>
@@ -558,14 +557,14 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>
-        @article{zhang2024fastervlm,
-          title={[CLS] Attention is All You Need for Training-Free Visual Token Pruning: Make VLM Inference Faster}, 
-          author={Zhang, Qizhe and Cheng, Aosong and Lu, Ming and Zhuo, Zhiyong and Wang, MinQi and Cao, Jiajun and Guo, Shaobo and She, Qi and Zhang, Shanghang},
-          journal={arXiv preprint arXiv:2412.01818},
-          year={2024}
-        }
-			</code></pre>
+      <pre><tt>
+@article{zhang2024fastervlm,
+  title={[CLS] Attention is All You Need for Training-Free Visual Token Pruning: Make VLM Inference Faster}, 
+  author={Zhang, Qizhe and Cheng, Aosong and Lu, Ming and Zhuo, Zhiyong and Wang, MinQi and Cao, Jiajun and Guo, Shaobo and She, Qi and Zhang, Shanghang},
+  journal={arXiv preprint arXiv:2412.01818v1},
+  year={2024}
+}
+			</tt></pre>
     </div>
   </section>
 
