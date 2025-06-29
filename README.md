@@ -6,6 +6,8 @@
 
 ## 📰 News
 
+🔥 **[2025/06/26]** Our new version of [VisPruner](https://arxiv.org/abs/2412.01818) is accepted by ICCV 2025! 🎉
+
 🔥 **[2025/06/24]** A new version of FasterVLM named [VisPruner](https://github.com/Theia-4869/VisPruner) is released!
 
 🔥 **[2024/12/15]** Our [FasterVLM](https://github.com/Theia-4869/FasterVLM/tree/video) with [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA) is released!
